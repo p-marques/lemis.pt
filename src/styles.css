@@ -2,3 +2,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+/* Removes focus overlay */
+.no-hover-overlay.mat-button .mat-button-focus-overlay,
+.no-hover-overlay.mat-button .mat-button-focus-overlay,
+.no-hover-overlay.mat-button .mat-button-focus-overlay
+{
+  background-color: transparent;
+}

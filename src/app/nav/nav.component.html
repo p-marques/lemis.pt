@@ -1,0 +1,26 @@
+<mat-toolbar color="primary" class="mat-elevation-z6 lemis-header">
+  <span>LemisWebApp</span>
+  <span class="spacer"></span>
+  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Home</a>
+  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Empresa</a>
+  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Produtos</a>
+  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Contactos</a>
+  <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+    <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="false" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="!(isHandset$ | async)" position="end">
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

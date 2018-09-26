@@ -1,24 +1,38 @@
-<mat-toolbar color="primary" class="mat-elevation-z6 lemis-header">
-  <span>LemisWebApp</span>
-  <span class="spacer"></span>
-  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Home</a>
-  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Empresa</a>
-  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Produtos</a>
-  <a mat-button class="lemis-header-button no-hover-overlay" href="#">Contactos</a>
-  <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
-    <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-  </button>
+<mat-toolbar color="primary" class="lemis-header">
+  <mat-toolbar-row class="lang-bar">
+    <span class="spacer"></span>
+    <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 0}" (click)="changeLanguage(0)">PT</button>
+    <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 1}" (click)="changeLanguage(1)">FR</button>
+    <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 2}" (click)="changeLanguage(2)">ES</button>
+    <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 3}" (click)="changeLanguage(3)">EN</button>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <div class="logo-block"><span>LemisWebApp</span></div>
+    <span class="spacer"></span>
+    <div class="big-menu" *ngIf="!(isHandset$ | async)">
+      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.home}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.company}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.products}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.news}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.contacts}}</a>
+    </div>
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
 </mat-toolbar>
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport="false" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="!(isHandset$ | async)" position="end">
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false" position="end">
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#">{{navTranslation[currentLanguage]?.home}}</a>
+      <a mat-list-item href="#">{{navTranslation[currentLanguage]?.company}}</a>
+      <a mat-list-item href="#">{{navTranslation[currentLanguage]?.products}}</a>
+      <a mat-list-item href="#">{{navTranslation[currentLanguage]?.news}}</a>
+      <a mat-list-item href="#">{{navTranslation[currentLanguage]?.contacts}}</a>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content>
+  <mat-sidenav-content class="content-container">
 
     <router-outlet></router-outlet>
 

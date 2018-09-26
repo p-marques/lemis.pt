@@ -1,17 +1,27 @@
-.lemis-header { padding-right: 0 }
+mat-toolbar.lemis-header { background-color: #fff; color: #3f51b5; border-bottom: 1px solid #ddd }
+mat-toolbar.lemis-header mat-toolbar-row { padding: 0; }
+
+mat-toolbar.lemis-header .logo-block { min-width: 200px; height: 64px; padding: 0 20px; background-color: #3f51b5; text-align: end; }
+mat-toolbar.lemis-header .logo-block span { height: 64px; line-height: 64px; color: #fff;}
 
 a.lemis-header-button { height: 64px; line-height: 64px; border-radius: 0; }
-a.lemis-header-button:hover, a.lemis-header-button:focus { background-color: white; color: #3f51b5; }
+a.lemis-header-button:hover, a.lemis-header-button:focus { background-color: #3f51b5; color: #fff; }
+
+mat-toolbar-row.lang-bar { height: unset; background-color: #eee; }
+button.lang-btn { min-width: 0; }
+button.lang-btn.lang-btn-active { color: red }
 
 .sidenav-container {
-  height: 100%;
+  min-height: calc(100% - 101px);
 }
+
+.content-container { background-color: #fff; min-height: calc(100% - 101px); }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
 }
 
-.sidenav { width: 200px }
+.sidenav { width: 200px; border-left: 1px solid #ddd; }
 
 span.spacer { flex: 1 1 auto }

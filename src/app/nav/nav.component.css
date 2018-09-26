@@ -2,10 +2,11 @@ mat-toolbar.lemis-header { background-color: #fff; color: #3f51b5; border-bottom
 mat-toolbar.lemis-header mat-toolbar-row { padding: 0; }
 
 mat-toolbar.lemis-header .logo-block { min-width: 200px; height: 64px; padding: 0 20px; background-color: #3f51b5; text-align: end; }
-mat-toolbar.lemis-header .logo-block span { height: 64px; line-height: 64px; color: #fff;}
+mat-toolbar.lemis-header .logo-block a { height: 64px; line-height: 64px; color: #fff; text-decoration: none; }
 
 a.lemis-header-button { height: 64px; line-height: 64px; border-radius: 0; }
-a.lemis-header-button:hover, a.lemis-header-button:focus { background-color: #3f51b5; color: #fff; }
+a.lemis-header-button:hover { background-color: #3f51b5; color: #fff; }
+a.lemis-header-button.active { border-bottom: 2px solid #3f51b5 }
 
 mat-toolbar-row.lang-bar { height: unset; background-color: #eee; }
 button.lang-btn { min-width: 0; }
@@ -13,6 +14,7 @@ button.lang-btn.lang-btn-active { color: red }
 
 .sidenav-container {
   min-height: calc(100% - 101px);
+  background-color: #fff;
 }
 
 .content-container { background-color: #fff; min-height: calc(100% - 101px); }

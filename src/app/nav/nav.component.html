@@ -7,14 +7,14 @@
     <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 3}" (click)="changeLanguage(3)">EN</button>
   </mat-toolbar-row>
   <mat-toolbar-row>
-    <div class="logo-block"><span>LemisWebApp</span></div>
+    <div class="logo-block"><a routerLink="/home"><span>Lemis Ibérica</span></a></div>
     <span class="spacer"></span>
     <div class="big-menu" *ngIf="!(isHandset$ | async)">
-      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.home}}</a>
-      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.company}}</a>
-      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.products}}</a>
-      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.news}}</a>
-      <a mat-button class="lemis-header-button no-hover-overlay" href="#">{{navTranslation[currentLanguage]?.contacts}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/home" routerLinkActive="active">{{navTranslation[currentLanguage]?.home}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/company" routerLinkActive="active">{{navTranslation[currentLanguage]?.company}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/products" routerLinkActive="active">{{navTranslation[currentLanguage]?.products}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/news" routerLinkActive="active">{{navTranslation[currentLanguage]?.news}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/contacts" routerLinkActive="active">{{navTranslation[currentLanguage]?.contacts}}</a>
     </div>
     <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
@@ -35,6 +35,6 @@
   <mat-sidenav-content class="content-container">
 
     <router-outlet></router-outlet>
-
+    <lemis-footer></lemis-footer>
   </mat-sidenav-content>
 </mat-sidenav-container>

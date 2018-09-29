@@ -1,0 +1,13 @@
+<div fxLayout="column" class="news-list-container">
+  <div fxLayout="row wrap" fxLayoutGap="0.5%" fxLayoutAlign="center">
+    <a *ngFor="let newsItem of newsItems" fxFlex="30" fxFlex.sm="45" fxFlex.xs="100" href="#" class="news-item no-decoration">
+      <mat-card>
+        <div style="overflow: hidden"><img mat-card-image [src]="newsItem.cover"></div>
+        <mat-card-content>
+          <h2>{{newsItem.title[currentLanguage]}}</h2>
+          <p style="color: #ccc">{{newsItem.date}}</p>
+        </mat-card-content>
+      </mat-card>
+    </a>
+  </div>
+</div>

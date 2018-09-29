@@ -5,6 +5,7 @@ import { map } from 'rxjs/operators';
 import { TranslateService } from '../shared/translate.service';
 import { LanguageCode } from '../models/enums';
 import { INavTranslation } from '../models/translation';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'lemis-nav',
@@ -12,10 +13,16 @@ import { INavTranslation } from '../models/translation';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  private _isHome: boolean;
   navTranslation: INavTranslation[] = [];
 
   public get currentLanguage(): LanguageCode {
     return this.translateService.appLanguage;
+  }
+
+  public get isHome(): boolean {
+    this._isHome = (this.router.url === '/' || this.router.url === '/home');
+    return this._isHome;
   }
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
@@ -35,7 +42,6 @@ export class NavComponent implements OnInit {
     this.translateService.appLanguage = language;
   }
 
-
-  constructor(private breakpointObserver: BreakpointObserver, private translateService: TranslateService) {}
+  constructor(private breakpointObserver: BreakpointObserver, private router: Router, private translateService: TranslateService) {}
 
   }

@@ -2,7 +2,6 @@
   "navTranslations": [
     {"home": "Home", "company": "Empresa", "products": "Produtos", "news": "Notícias", "contacts": "Contactos"},
     {"home": "Home", "company": "Empresa", "products": "Produtos", "news": "Notícias", "contacts": "Contactos"},
-    {"home": "Home", "company": "Empresa", "products": "Produtos", "news": "Notícias", "contacts": "Contactos"},
     {"home": "Home", "company": "Company", "products": "Products", "news": "News", "contacts": "Contacts"}
   ]
 }

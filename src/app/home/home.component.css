@@ -1,0 +1,22 @@
+.home-container {
+  min-height: calc(100vh - 101px);
+}
+
+.welcome-video-container {
+  overflow: hidden;
+  height: calc(100vh - 101px);
+  width: 100%;
+  z-index: -100;
+  align-content: center;
+}
+
+#welcome-video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 599px) {
+  .welcome-video-container { height: calc(100vh - 56px); }
+}

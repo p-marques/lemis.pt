@@ -1,2 +1,7 @@
-.footer-container { height: 100px; background-color: #3f51b5;; color: #fff; }
-.footer-container footer { padding: 20px; }
+.footer-container {
+  background-color: #3f51b5;
+  color: #fff;
+  z-index: 100;
+  width: 100%;
+}
+.footer-container footer { padding: 10px; }

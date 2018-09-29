@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { LayoutModule } from '@angular/cdk/layout';
 import {
   MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule,
-  MatListModule, MatCardModule, MatGridListModule
+  MatListModule, MatCardModule, MatGridListModule, MatSnackBarModule
 } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -16,7 +16,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatListModule,
     FlexLayoutModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSnackBarModule
   ],
   exports: [
     MatToolbarModule,
@@ -27,7 +28,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatListModule,
     FlexLayoutModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSnackBarModule
   ]
 })
 export class SharedModule { }

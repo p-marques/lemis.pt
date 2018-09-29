@@ -5,6 +5,7 @@ import { NewsRoutingModule } from './news-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
 import { NewsListComponent } from './news-list.component';
+import { NewsItemComponent } from './news-item.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { NewsListComponent } from './news-list.component';
     SharedModule
   ],
   declarations: [
-    NewsListComponent
+    NewsListComponent,
+    NewsItemComponent
   ]
 })
 export class NewsModule { }

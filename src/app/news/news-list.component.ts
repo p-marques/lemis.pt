@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { INewsCollection, INewsItem } from '../models/news';
+import { INewsItem } from '../models/news';
 import { NewsService } from './news.service';
 import { LanguageCode } from '../models/enums';
 import { TranslateService } from '../shared/translate.service';
@@ -21,8 +21,12 @@ export class NewsListComponent implements OnInit {
 
   ngOnInit() {
     this.newsService.getNewsItems().subscribe(
-      data => { this.newsItems = data.newsItems; console.log(data); }
+      data => this.newsItems = data.newsItems
     );
+  }
+
+  selectNewsItem(item: INewsItem): void {
+    this.newsService.currentNewsItem = item;
   }
 
 }

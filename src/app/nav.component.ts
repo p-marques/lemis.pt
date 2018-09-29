@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { TranslateService } from '../shared/translate.service';
-import { LanguageCode } from '../models/enums';
-import { INavTranslation } from '../models/translation';
+import { TranslateService } from './shared/translate.service';
+import { LanguageCode } from './models/enums';
+import { INavTranslation } from './models/translation';
 import { Router } from '@angular/router';
 
 @Component({

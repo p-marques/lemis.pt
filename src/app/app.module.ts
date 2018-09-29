@@ -1,38 +1,40 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
+
+import { HomeModule } from './home/home.module';
+import { CompanyModule } from './company/company.module';
+import { ProductsModule } from './products/products.module';
+import { NewsModule } from './news/news.module';
+import { ContactsModule } from './contacts/contacts.module';
+
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavComponent } from './nav/nav.component';
-import { HttpClientModule } from '@angular/common/http';
-import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { NewsListComponent } from './news/news-list.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { CompanyComponent } from './company/company.component';
-import { ProductsListComponent } from './products/products-list.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent,
     NotFoundComponent,
-    NewsListComponent,
-    ContactsComponent,
-    CompanyComponent,
-    ProductsListComponent,
     FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    CompanyModule,
+    ProductsModule,
+    NewsModule,
+    HomeModule,
+    ContactsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

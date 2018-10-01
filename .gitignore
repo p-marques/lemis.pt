@@ -35,9 +35,7 @@ testem.log
 /typings
 
 # Big assets
-*.mp4
-*.jpg
-*.png
+/src/assets/*
 
 # System Files
 .DS_Store

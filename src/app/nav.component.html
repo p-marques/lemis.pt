@@ -16,7 +16,7 @@
       <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/home" routerLinkActive="active">{{navTranslation[currentLanguage]?.home}}</a>
       <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/company" routerLinkActive="active">{{navTranslation[currentLanguage]?.company}}</a>
       <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/products" routerLinkActive="active">{{navTranslation[currentLanguage]?.products}}</a>
-      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/news" routerLinkActive="active">{{navTranslation[currentLanguage]?.news}}</a>
+      <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/noticias" routerLinkActive="active">{{navTranslation[currentLanguage]?.news}}</a>
       <a mat-button class="lemis-header-button no-hover-overlay" routerLink="/contacts" routerLinkActive="active">{{navTranslation[currentLanguage]?.contacts}}</a>
     </div>
     <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
@@ -31,7 +31,7 @@
       <a mat-list-item routerLink="/home" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.home}}</a>
       <a mat-list-item routerLink="/company" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.company}}</a>
       <a mat-list-item routerLink="/products" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.products}}</a>
-      <a mat-list-item routerLink="/news" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.news}}</a>
+      <a mat-list-item routerLink="/noticias" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.news}}</a>
       <a mat-list-item routerLink="/contacts" routerLinkActive="active" (click)="drawer.toggle()">{{navTranslation[currentLanguage]?.contacts}}</a>
     </mat-nav-list>
   </mat-sidenav>

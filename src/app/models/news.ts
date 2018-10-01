@@ -3,10 +3,8 @@ export interface INewsCollection {
 }
 
 export interface INewsItem {
-  id: number;
-  title: string[];
+  title: string;
   date: string;
   cover: string;
-  content: string[];
-  images: string[];
+  url: string;
 }

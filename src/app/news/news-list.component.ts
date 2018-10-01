@@ -11,7 +11,6 @@ import { TranslateService } from '../shared/translate.service';
 })
 export class NewsListComponent implements OnInit {
   newsItems: INewsItem[] = [];
-  readMoreText: string[] = ['Ler Mais', 'Ler Mais FR', 'Ler Mais EN'];
 
   public get currentLanguage(): LanguageCode {
     return this.translateService.appLanguage;
@@ -23,10 +22,6 @@ export class NewsListComponent implements OnInit {
     this.newsService.getNewsItems().subscribe(
       data => this.newsItems = data.newsItems
     );
-  }
-
-  selectNewsItem(item: INewsItem): void {
-    this.newsService.currentNewsItem = item;
   }
 
 }

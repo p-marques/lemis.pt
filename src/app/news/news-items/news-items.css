@@ -1,0 +1,34 @@
+h2, h3, h4, h5, h6 { font-weight: 300; margin: 0; }
+.color-ccc { color: #ccc; }
+p { font-size: 18px; font-weight: 300; }
+#delta p { font-size: 22px; }
+
+.news-item-container { background-color: #f8f8f8; min-height: calc(100vh - 101px); max-height: none; }
+.news-item-container .news-item { background-color: #fff; z-index: 10; margin-top: 1%; }
+.news-item-container .news-item .image-container { display: inline-block; text-align: center; }
+.news-item-container .news-item .image-container img { width: 100%; height: auto; max-height: 800px; }
+
+.news-item-container .news-item,
+.news-item-container .news-item .image-container,
+.news-item-container .news-item .image-container img { border-radius: 5px 5px 0 0; }
+
+.news-item-container .news-item .title-container { padding: 30px; text-align: center; }
+.news-item-container .news-item .title-container h1 { margin: 0; }
+
+.news-item-container .news-item .content-container { padding-top: 20px; text-align: right; }
+.news-item-container .news-item .content-container h2,
+.news-item-container .news-item .content-container h4 { text-align: left; padding-left: 20px; margin: 0; }
+.news-item-container .news-item .content-container img { max-width: 100%; max-height: 350px; margin-bottom: 10%; }
+
+.news-item-container .news-item .content-container .more-container img { width: auto; height: auto; margin: 0; }
+
+#museu-valegre h2 { margin: 50px 0; }
+#museu-valegre .content-container img { border-radius: 5px; }
+#museu-valegre .content-container h2,
+#museu-valegre .content-container h4 { padding: 0; text-align: center; }
+#museu-valegre .content-container, #delta .content-container { padding: 40px; text-align: left; }
+#museu-valegre .content-container img { width: auto; height: auto; max-height: 500px; margin: 0; }
+#museu-valegre .content-container #linha-somerset img { max-width: 100%; max-height: 450px; width: auto; }
+
+#museu-valegre .content-container .img-with-tooltip { background-color: #f8f8f8; border-radius: 5px; border: 1px solid #ddd; }
+#museu-valegre .content-container .img-with-tooltip h3.tooltip { padding: 10px; }

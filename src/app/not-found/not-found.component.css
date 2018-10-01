@@ -1,0 +1,13 @@
+h1, h2 { margin: 0; }
+h1 { font-size: 160px; }
+h2 { font-size: 40px; }
+
+.not-found-container { background-color: #f8f8f8; min-height: calc(100vh - 101px); }
+.not-found-container .not-found-container-inner { background-color: #fff; margin-top: 50px; padding: 30px; border-radius: 5px; border: 1px solid #eee; }
+.not-found-container .not-found-container-inner a { margin-top: 30px; }
+
+@media (max-width: 599px) {
+  h1 { font-size: 120px; }
+  h2 { font-size: 20px; }
+  .not-found-container { height: calc(100vh - 56px); }
+}

@@ -9,11 +9,13 @@ import { ICompanyText } from '../models/company';
   providedIn: 'root'
 })
 export class TranslateService {
-  private _appLanguage: LanguageCode = LanguageCode.POR;
+  private _appLanguage: LanguageCode;
   public get appLanguage(): LanguageCode {
-    return this._appLanguage;
+    this._appLanguage = +localStorage.getItem('lemis-app-language');
+    return this._appLanguage || LanguageCode.POR;
   }
   public set appLanguage(v: LanguageCode) {
+    localStorage.setItem('lemis-app-language', v.toString());
     this._appLanguage = v;
   }
 

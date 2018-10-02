@@ -1,7 +1,8 @@
+h4 { margin: 0; padding-left: 10px; }
 .footer-container {
+  height: 50px;
   background-color: #3f51b5;
   color: #fff;
   z-index: 100;
   width: 100%;
 }
-.footer-container footer { padding: 10px; }

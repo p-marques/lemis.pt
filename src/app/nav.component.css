@@ -1,22 +1,24 @@
 mat-toolbar.lemis-header { background-color: #fff; color: #3f51b5; z-index: 100; }
 mat-toolbar.lemis-header mat-toolbar-row { padding: 0; }
+mat-toolbar.lemis-header mat-toolbar-row.menu-bar { border-bottom: 1px solid; }
 
 mat-toolbar.lemis-header .logo-block { height: 100%; line-height: 100%; padding: 0 10px 0 50px; background-color: #3f51b5; text-align: center; }
 
 a.lemis-header-button { height: 64px; line-height: 64px; border-radius: 0; }
 a.lemis-header-button:hover { background-color: #3f51b5; color: #fff; }
-a.lemis-header-button.active { border-bottom: 2px solid #3f51b5 }
+a.lemis-header-button.active { border-bottom: 3px solid #3f51b5 }
 
-mat-toolbar-row.lang-bar { height: unset; background-color: #f8f8f8; }
-button.lang-btn { min-width: 0; }
-button.lang-btn.lang-btn-active { color: red }
+mat-toolbar-row.lang-bar { height: unset; background-color: #f8f8f8; height: 36px; }
+button.lang-btn { min-width: 0; margin-right: 5px; box-sizing: border-box; border-radius: 0; }
+button.lang-btn img { height: 25px; width: 38px; object-fit: cover; }
+button.lang-btn.lang-btn-active { background-color: #fff; border-top: 3px solid #3f51b5; }
 
 .sidenav-container {
   background-color: #fff;
-  min-height: calc(100vh - 101px);
+  min-height: calc(100vh - 100px);
 }
 
-.content-container { background-color: #fff; min-height: calc(100vh - 101px); }
+.content-container { background-color: #fff; min-height: calc(100vh - 100px); }
 
 .mat-toolbar.mat-primary {
   position: sticky;
@@ -24,6 +26,8 @@ button.lang-btn.lang-btn-active { color: red }
 }
 
 .sidenav { width: 200px; }
+.sidenav .sidenav-lng-bar button.lang-btn-active { border: none; border-bottom: 3px solid #3f51b5; }
+.sidenav mat-nav-list a.active { border-left: 3px solid #3f51b5; }
 
 span.spacer { flex: 1 1 auto }
 

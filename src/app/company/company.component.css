@@ -1,0 +1,113 @@
+.company-container .content .tab-group, p { font-size: 20px; }
+
+.company-container {
+  min-height: calc(100vh - 100px);
+  background-color: #f8f8f8;
+}
+.company-container .header-container {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url("/assets/images/company/foto_lemis_darker.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.company-container .header-container .all-lemis-container,
+.company-container .header-container .all-lemis-container .all-lemis-container-inner{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.company-container .header-container .all-lemis-container h1 {
+  font-size: 180px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(254, 103, 98, 0.8);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.company-container .header-container .all-lemis-container button {
+  margin: 20px 0;
+}
+
+.company-container .header-container .all-lemis-container button i {
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.company-container .content {
+  width: 100%;
+  min-height: 800px;
+}
+
+.company-container .content .tab-group,
+.company-container .content .timeline-container {
+  margin: 50px;
+}
+
+.company-container .content .timeline-container h1,
+.company-container .content .timeline-container h2 {
+  text-align: right;
+  margin: 0;
+}
+
+.company-container .content .timeline-container h2 {
+  color: #aaa;
+}
+
+.company-container .content .timeline-container .timeline-item {
+  margin: 20px 0;
+}
+
+.company-container .content .timeline-container .icon-container {
+  margin-left: 30px;
+}
+
+.company-container .content .timeline-container i {
+  font-size: 80px;
+}
+
+.certificados-container {
+  width: 100%;
+  margin: 2.5%;
+}
+
+.certificados-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  .company-container .content .tab-group, p { font-size: 16px; }
+
+  .company-container .header-container { height: calc(100vh - 56px); }
+  .company-container .header-container .all-lemis-container h1 { font-size: 90px; }
+
+  .company-container .content .tab-group,
+  .company-container .content .timeline-container {
+    margin: 20px;
+  }
+
+  .company-container .content .timeline-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company-container .content .timeline-container i {
+    font-size: 60px;
+  }
+
+  .company-container .content .timeline-container h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  p { font-size: 14px; }
+  .company-container .header-container .all-lemis-container h1 { font-size: 64px; }
+}

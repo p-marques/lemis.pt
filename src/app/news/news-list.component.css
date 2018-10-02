@@ -1,4 +1,5 @@
 .news-list-container {
+  min-height: calc(100vh - 150px);
 }
 
 .news-item { margin-top: .2%; }
@@ -6,3 +7,9 @@
 .news-item mat-card-content { padding: 20px; }
 .news-item img { opacity: 0.7; transition: transform .2s; }
 .news-item:hover img { opacity: 1; transform: scale(1.1); }
+
+@media (max-width: 599px) {
+  .news-list-container {
+    min-height: calc(100vh - 106px);
+  }
+}

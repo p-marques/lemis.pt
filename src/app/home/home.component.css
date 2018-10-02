@@ -1,10 +1,10 @@
 .home-container {
-  min-height: calc(100vh - 101px);
+  min-height: calc(100vh - 100px);
 }
 
 .welcome-video-container {
   overflow: hidden;
-  height: calc(100vh - 101px);
+  height: calc(100vh - 100px);
   width: 100%;
   z-index: -100;
   align-content: center;

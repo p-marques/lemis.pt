@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { INavTranslations } from '../models/translation';
 import { Observable } from 'rxjs';
 import { ICompanyText } from '../models/company';
+import { IContactsTranslations } from '../models/contacts';
 
 @Injectable({
   providedIn: 'root'
@@ -19,6 +20,10 @@ export class TranslateService {
     this._appLanguage = v;
   }
 
+  public get translatedOk(): string {
+    return ['OK', 'D\'accord', 'OK'][this.appLanguage];
+  }
+
   // Methods
   public getNavStrings(): Observable<INavTranslations> {
     return this.http.get<INavTranslations>('api/navText.json');
@@ -26,6 +31,10 @@ export class TranslateService {
 
   public getCompanyString(): Observable<ICompanyText> {
     return this.http.get<ICompanyText>('api/company.json');
+  }
+
+  public getContactsStrings(): Observable<IContactsTranslations> {
+    return this.http.get<IContactsTranslations>('api/contacts.json');
   }
 
   constructor(private http: HttpClient) { }

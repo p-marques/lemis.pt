@@ -1,0 +1,34 @@
+{
+  "contactUs": [
+    "Entre em contacto connosco",
+    "Nous contacter",
+    "Contact us"
+  ],
+  "placeholders": [
+    ["Nome", "Nom", "Name"],
+    ["Mensagem", "Message", "Message"]
+  ],
+  "errorMessages": [
+    ["Obrigatório", "Champ obligatoire", "Required"],
+    ["Entre 4 e 30 caratéres", "Entre 4 et 30 caractères", "Between 4 e 30 characters"],
+    ["Tem de ser um email válido", "Un email valide est requis", "Valid email required"],
+    ["Entre 15 e 500 caratéres", "Entre 15 et 500 caractères", "Between 15 e 500 characters"]
+  ],
+  "submit": [
+    "Enviar",
+    "Envoyer",
+    "Send"
+  ],
+  "snackResponses": [
+    [
+      "Mensagem enviada com sucesso.",
+      "Message envoyé avec succès.",
+      "Message sent successfully."
+    ],
+    [
+      "Algo correu mal e a mensagem não foi enviada. Por favor tente mais tarde.",
+      "Le message n'a pas été envoyé. Veuillez réessayer plus tard.",
+      "Something went wrong and the message was not sent. Please try again later."
+    ]
+  ]
+}

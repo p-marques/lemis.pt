@@ -1,3 +1,88 @@
-<h1>
-  contacts works!
-</h1>
+<div class="contacts-container" fxLayout="column">
+  <div class="map-container">
+    <!--<iframe class="map" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBLPodSR31SVUkqNYxwf4a-fiRhFq_fW4g&center=40.6137248,-8.4438638&zoom=16&language=pt&maptype=satellite" frameborder="0"></iframe>-->
+  </div>
+  <div class="content-container" fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="center start">
+    <div fxLayout="column" fxFlex="40" fxFlex.lt-lg="100" class="left">
+
+      <h1>{{contactsStrings?.contactUs[currentLanguage]}}</h1>
+
+      <form fxLayout="column" [formGroup]="contactFormGroup" (ngSubmit)="onSubmitContactForm()" class="contact-form">
+
+        <div fxLayout="row">
+
+          <mat-form-field fxFlex="50" class="form-input-field-left">
+            <input id="name" name="name" matInput [placeholder]="contactsStrings?.placeholders[0][currentLanguage]" formControlName="nameFormControl" required minlength="4" maxlength="30">
+            <mat-error *ngIf="(nameFormControl.hasError('minlength') || nameFormControl.hasError('maxlength')) && !nameFormControl.hasError('required')">
+                {{contactsStrings?.errorMessages[1][currentLanguage]}}
+            </mat-error>
+            <mat-error *ngIf="nameFormControl.hasError('required')">
+              {{contactsStrings?.errorMessages[0][currentLanguage]}}
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field fxFlex="50" class="form-input-field-right">
+            <input id="email" name="email" matInput placeholder="Email" formControlName="emailFormControl" required>
+            <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+              {{contactsStrings?.errorMessages[2][currentLanguage]}}
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('required')">
+              {{contactsStrings?.errorMessages[0][currentLanguage]}}
+            </mat-error>
+          </mat-form-field>
+
+        </div>
+
+        <mat-form-field fxFlex="100">
+          <textarea matInput [placeholder]="contactsStrings?.placeholders[1][currentLanguage]" name="message" id="message" #message rows="10" formControlName="messageFormControl" required minlength="15" maxlength="500"></textarea>
+          <mat-hint align="end">{{message.value.length}} / 500</mat-hint>
+          <mat-error *ngIf="(messageFormControl.hasError('minlength') || messageFormControl.hasError('maxlength')) && !messageFormControl.hasError('required')">
+            {{contactsStrings?.errorMessages[3][currentLanguage]}}
+          </mat-error>
+          <mat-error *ngIf="messageFormControl.hasError('required')">
+            {{contactsStrings?.errorMessages[0][currentLanguage]}}
+          </mat-error>
+        </mat-form-field>
+
+        <div fxLayout="row" fxLayoutAlign="end center" class="submit-container" style="min-height: 70px">
+          <mat-spinner *ngIf="working" color="accent" diameter="50"></mat-spinner>
+          <button *ngIf="!working" mat-raised-button color="accent" type="submit" [disabled]="!contactFormGroup.valid || working">{{contactsStrings?.submit[currentLanguage]}}</button>
+        </div>
+
+      </form>
+
+    </div>
+    <div fxFlex="40" fxFlex.lt-lg="100" class="right" fxLayout="column">
+      <div fxLayout="column" fxLayoutAlign="center end">
+        <div fxLayout="row" fxLayoutAlign="center center" class="bit-container">
+          <div fxLayout="column" fxLayoutAlign="center end" class="bit-container-inner">
+            <h2>P.BOX: 15 Mourisca do Vouga</h2>
+            <h2>3754-907 Trofa</h2>
+            <h2>Águeda</h2>
+            <h2>Portugal</h2>
+          </div>
+          <i class="material-icons">explore</i>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="center center" class="bit-container" style="margin-top: 20px;">
+          <div fxLayout="column" fxLayoutAlign="center end" class="bit-container-inner">
+            <h2 style="line-height: 60px">+351 234 644 701</h2>
+          </div>
+          <i class="material-icons">local_phone</i>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="center center" class="bit-container" style="margin-top: 20px;">
+          <div fxLayout="column" fxLayoutAlign="center end" class="bit-container-inner">
+            <h2 style="line-height: 60px">+351 234 644 702</h2>
+          </div>
+          <i class="material-icons">print</i>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="center center" class="bit-container" style="margin-top: 20px;">
+          <div fxLayout="column" fxLayoutAlign="center end" class="bit-container-inner">
+            <h2>N40º61'40.225</h2>
+            <h2 style="margin-top: 10px">W-8º.44'24.764</h2>
+          </div>
+          <i class="material-icons">location_on</i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

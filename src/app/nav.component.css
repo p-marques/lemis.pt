@@ -29,8 +29,6 @@ button.lang-btn.lang-btn-active { background-color: #fff; border-top: 3px solid 
 .sidenav .sidenav-lng-bar button.lang-btn-active { border: none; border-bottom: 3px solid #3f51b5; }
 .sidenav mat-nav-list a.active { border-left: 3px solid #3f51b5; }
 
-span.spacer { flex: 1 1 auto }
-
 @media (max-width: 599px) {
   .sidenav-container { min-height: calc(100% - 56px); }
   .sidenav { width: 100%; }

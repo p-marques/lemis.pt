@@ -1,3 +1,12 @@
-<h1>
-  products-list works!
-</h1>
+<div fxLayout="column" class="products-list-container">
+  <div fxLayout="row" fxLayoutAlign="start center" class="filters-container">
+      <h1>{{selectedTag[currentLanguage]}}</h1>
+      <span class="spacer"></span>
+      <a *ngFor="let tag of tags" [ngClass]="{active: isSelectedTag(tag)}" (click)="selectTag(tag)">{{tag[currentLanguage]}}</a>
+  </div>
+  <div fxLayout="row wrap" class="products-list-container">
+    <a fxFlex="25" fxLayoutAlign="center end" *ngFor="let product of filteredProducts" class="product-container" [ngStyle]="{'background-image': 'url(' + product.cover + ')'}">
+      <span fxLayoutAlign="center center">{{product.name[currentLanguage]}}</span>
+    </a>
+  </div>
+</div>

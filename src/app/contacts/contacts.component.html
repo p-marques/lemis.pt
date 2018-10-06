@@ -2,14 +2,14 @@
   <div class="map-container">
     <!--<iframe class="map" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBLPodSR31SVUkqNYxwf4a-fiRhFq_fW4g&center=40.6137248,-8.4438638&zoom=16&language=pt&maptype=satellite" frameborder="0"></iframe>-->
   </div>
-  <div class="content-container" fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="center start">
+  <div class="content-container" fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="center center">
     <div fxLayout="column" fxFlex="40" fxFlex.lt-lg="100" class="left">
 
       <h1>{{contactsStrings?.contactUs[currentLanguage]}}</h1>
 
       <form fxLayout="column" [formGroup]="contactFormGroup" (ngSubmit)="onSubmitContactForm()" class="contact-form">
 
-        <div fxLayout="row">
+        <div fxLayout="row" fxLayout.lt-md="column">
 
           <mat-form-field fxFlex="50" class="form-input-field-left">
             <input id="name" name="name" matInput [placeholder]="contactsStrings?.placeholders[0][currentLanguage]" formControlName="nameFormControl" required minlength="4" maxlength="30">
@@ -52,7 +52,7 @@
       </form>
 
     </div>
-    <div fxFlex="40" fxFlex.lt-lg="100" class="right" fxLayout="column">
+    <div fxLayout="column" fxFlex="40" fxFlex.lt-lg="100" class="right">
       <div fxLayout="column" fxLayoutAlign="center end">
         <div fxLayout="row" fxLayoutAlign="center center" class="bit-container">
           <div fxLayout="column" fxLayoutAlign="center end" class="bit-container-inner">

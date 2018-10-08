@@ -3,6 +3,9 @@ import { ProductsService } from './products.service';
 import { IProduct } from '../models/products';
 import { TranslateService } from '../shared/translate.service';
 import { LanguageCode } from '../models/enums';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'lemis-products-list',
@@ -19,7 +22,13 @@ export class ProductsListComponent implements OnInit {
     return this.translateService.appLanguage;
   }
 
-  constructor(private productsService: ProductsService, private translateService: TranslateService) { }
+  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
+    .pipe(
+      map(result => result.matches)
+  );
+
+  constructor(private breakpointObserver: BreakpointObserver, private productsService: ProductsService,
+    private translateService: TranslateService) { }
 
   ngOnInit() {
     this.productsService.getProducts().subscribe(

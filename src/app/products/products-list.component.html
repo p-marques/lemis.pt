@@ -2,10 +2,12 @@
   <div fxLayout="row" fxLayoutAlign="start center" class="filters-container">
       <h1>{{selectedTag[currentLanguage]}}</h1>
       <span class="spacer"></span>
-      <a *ngFor="let tag of tags" [ngClass]="{active: isSelectedTag(tag)}" (click)="selectTag(tag)">{{tag[currentLanguage]}}</a>
+      <div fxLayout="row wrap" fxLayoutAlign="end center">
+        <a *ngFor="let tag of tags" [ngClass]="{active: isSelectedTag(tag)}" (click)="selectTag(tag)">{{tag[currentLanguage]}}</a>
+      </div>
   </div>
-  <div fxLayout="row wrap" class="products-list-container">
-    <a fxFlex="25" fxLayoutAlign="center end" *ngFor="let product of filteredProducts" class="product-container" [ngStyle]="{'background-image': 'url(' + product.cover + ')'}">
+  <div fxLayout="row wrap" class="list-container">
+    <a fxFlex="25" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33" fxLayoutAlign="center end" *ngFor="let product of filteredProducts" class="product-container" [ngStyle]="{'background-image': 'url(' + product.cover + ')'}">
       <span fxLayoutAlign="center center">{{product.name[currentLanguage]}}</span>
     </a>
   </div>

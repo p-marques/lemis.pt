@@ -24,7 +24,7 @@
                 "Structure avec 4 pieds, en tube d’acier Ø22mm et ép. 1.5 mm, peinture en époxy. Siège et dos  en stratifié de bois avec 10 mm d’épissure en stratifié coloré. Emboutes en polyamide.",
                 "Estrutura fixa de 4 pés, totalmente construída em tubo de aço redondo de 1ª qualidade 22×1,5 mm de espessura. Monocaco formas revestido a termolaninado. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
             ],
-            "fotos": ["image1", "image2", "image3"],
+            "fotos": ["assets/images/products/cadeira_formas_1.jpg", "assets/images/products/cadeira_formas_2.jpg", "assets/images/products/cadeira_formas_3.jpg"],
             "tags": [
                 ["Pré-Escolar", "Préscolaire", "Preschool"]
             ]
@@ -53,7 +53,7 @@
                 "Structure avec 4 pieds, en tube d’acier avec Ø22mm et épissure 1.5 mm, peinture en époxy.  Siège et dos  en stratifié de bois avec 10 mm d’épissure finition en vernis ou en stratifié coloris. Emboutes en polyamide.",
                 "Estrutura fixa de 4 pés, totalmente construída em tubo de aço redondo de 1ª qualidade 22×1,5 mm de espessura. Assento e Costa em contraplacado de madeira de 10mm de espessura mínima, em camadas sobrepostas, envernizada ou em termolaninado. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
             ],
-            "fotos": [],
+            "fotos": ["assets/images/products/cadeira_aluno_1.png", "assets/images/products/cadeira_aluno_2.png", "assets/images/products/cadeira_aluno_3.png", "assets/images/products/cadeira_aluno_4.png"],
             "tags": [
                 ["Pré-Escolar", "Préscolaire", "Preschool"],
                 ["Escolar", "Scolaire", "School"]
@@ -68,7 +68,7 @@
                 "Forme par quatre montants, verrouillages et dix étagères. Montants en tube d’acier, rectangulaire 60x 20x 1, 5 mm. Peinture à époxy. Verrouillages en Barre en X avec système de régulation et en barre de verrouillage. Peinture à époxy. Panneaux décoratifs sur les montants, perfores et en bois contreplaqué de 16 mm, en hêtre sur les deux côtes avec vernis de polyuréthane, servent aussi pour empêcher la chute des livres. Etagères Simples en mélaminé, de 22 mm d’épissure; Etagère avec porte titres.",
                 "Conjunto formado por quatro ilhargas laterais, travamentos e cinco prateleiras. Ilhargas em tubo de aço, de secção rectangular de 60x 20×1,5mm, com pintura a tinta epoxídica. O travamento da estrutura é feito  X, com sistema de regulação. As laterais, são fechadas por painéis perfurados, em contraplacado de madeira de 16mm, com folhas exteriores em faia, com envernizamento a poliuretano, que impeçam a queda de livros. Prateleiras simples, em aglomerado de madeira, de 22 mm de espessura. A estante é equipada com porta títulos frontal na parte superior."
             ],
-            "fotos": [],
+            "fotos": ["assets/images/products/estante_dupla_biblioteca_1.png", "assets/images/products/estante_dupla_biblioteca_2.png", "assets/images/products/estante_dupla_biblioteca_3.png"],
             "tags": [
                 ["Biblioteca", "Bibliothèque", "Lybrary"]
             ]
@@ -185,6 +185,603 @@
             "tags": [
                 ["Armários", "Armoires", "Cabinets"],
                 ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 12,
+            "name": ["Cadeira de Estirador", "Chaise Avani", "Chair Avani"],
+            "cover": "assets/images/products/cover_cadeira_estirador.png",
+            "description": [
+                "Estrutura fixa de 4 pés, totalmente construída em tubo de aço redondo de 1ª qualidade 22×1,5 mm de espessura. Assento e Costa em contraplacado de madeira de 10mm de espessura mínima, em camadas sobrepostas, envernizada ou em termolaminado. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Structure avec 4 pieds, en tube d’acier Ø22mm et ép. 1.5 mm, peinture en époxy. Siège et dos de bois avec 10 mm d’épissure finition en vernis ou en stratifié coloris en les deux côtés. Embouties en polyamide.",
+                "Estrutura fixa de 4 pés, totalmente construída em tubo de aço redondo de 1ª qualidade 22×1,5 mm de espessura. Assento e Costa em contraplacado de madeira de 10mm de espessura mínima, em camadas sobrepostas, envernizada ou em termolaminado. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 13,
+            "name": ["Estirador", "Iana", "Iana"],
+            "cover": "assets/images/products/cover_estirador.png",
+            "description": [
+                "Estrutura de suporte e um tampo basculante. Estrutura  com prumos verticais em tubo de aço de secção circular de 38 mm. Bases em tubo de secção oval (ao baixo) de 60 x 30 mm com a espessura mínima de 1,5 mm. Ligação das laterais em tubo de aço de secção retangular de 40 x 20 mm, com a espessura mínima de 1,5 mm. Tampo em aglomerado de madeira MDF com espessura  de 21 mm, revestido a termolaminado de 0,8 mm nas duas faces. Encabeçamento com perfil reto, em plástico (PVC) com 2 mm de espessura. Regulação da altura e da inclinação do tampo por sistemas de encaixe, independentes, não desmontáveis, e com intervalo máximo de 10 mm entre fixações, de forma a impedir a mudança de posição por ação inadvertida dos utilizadores ou desprendimento acidental.",
+                "Structure de supporte et plateau basculante. Structure verticale en tube d’acier circulaire Ø38 mm. Bases en tube d’acier ovale de 60×30 avec épissure 1,5 mm. Latérales en tube d’acier rectangulaire 40×20 mm avec épissure de 1,5 mm minimum. Plateaux en MDF avec 21 mm d'épaisseur, revêtu a stratifie de 0.8 mm en les deux côtes. Plateaux avec t bords en pvc. Hauteur des plateaux réglable pas système de encaisse avec un intervalle maximum de 10 mm entre les fixations par forme e empêcher un détachement accidentelle.",
+                "Estrutura de suporte e um tampo basculante. Estrutura  com prumos verticais em tubo de aço de secção circular de 38 mm. Bases em tubo de secção oval (ao baixo) de 60 x 30 mm com a espessura mínima de 1,5 mm. Ligação das laterais em tubo de aço de secção retangular de 40 x 20 mm, com a espessura mínima de 1,5 mm. Tampo em aglomerado de madeira MDF com espessura  de 21 mm, revestido a termolaminado de 0,8 mm nas duas faces. Encabeçamento com perfil reto, em plástico (PVC) com 2 mm de espessura. Regulação da altura e da inclinação do tampo por sistemas de encaixe, independentes, não desmontáveis, e com intervalo máximo de 10 mm entre fixações, de forma a impedir a mudança de posição por ação inadvertida dos utilizadores ou desprendimento acidental."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 14,
+            "name": ["Cadeira Monocasco", "Chaise Monocoque", "Monocoque Chair"],
+            "cover": "assets/images/products/cover_cadeira_monocasco.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, com assento monocasco. Estrutura rígida, com 4 pernas, exteriores ao plano do assento, terminando ao nível deste, em tubo de aço, de secção circular, de Ø 25×1.5 mm monocasco em contraplacado de madeira, moldado, com a espessura de 9 mm, com folhas exteriores em madeira de faia, com acabamento a verniz de poliuretano. A cadeira deve ser empilhável.",
+                "Structure avec 4 pieds, en tube d’acier Ø25mm et ép. 1.5 mm, peinture en époxy. Siège et dos  (monocoque) en stratifié de bois avec 9 mm d’épissure finition en vernis polyuréthane. Emboutes en polyamide. Chaise empilable.",
+                "Conjunto formado por estrutura de suporte, com assento monocasco. Estrutura rígida, com 4 pernas, exteriores ao plano do assento, terminando ao nível deste, em tubo de aço, de secção circular, de Ø 25×1.5 mm monocasco em contraplacado de madeira, moldado, com a espessura de 9 mm, com folhas exteriores em madeira de faia, com acabamento a verniz de poliuretano. A cadeira deve ser empilhável."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 15,
+            "name": ["Mesa Dupla de Leitura", "Table de Lecture Double", "Double Reading Table"],
+            "cover": "assets/images/products/cover_mesa_dupla_leitura.png",
+            "description": [
+                "Conjunto formado por tampo e estrutura de suporte. Estrutura lateral em U invertido, em tubo de aço de secção retangular, de 50x25x1,5mm, com pintura a tinta epoxídica. A estrutura  está à face do tampo, e este está elevado em relação à estrutura 0,5 mm. Tampo em aglomerado de partículas de madeira, com espessura de 21 mm, revestido a termolaminado de 0,8mm na face superior e contra face na inferior. Encabeçamento em perfil reto de PVC, com 3mm de espessura. Pontos de apoio no solo em poliamida 6, não desmontáveis por ação do uso.",
+                "Structure latéral en U inversé, en tube d’acier rectangulaire 50x25x1,5 mm, peinte a époxy. Plateaux élevé en relation à la structure 0.5 mm. Plateaux en melaminé avec bords en PVC de 3 mm. Emboutes en polyamide non démontables par usure.",
+                "Conjunto formado por tampo e estrutura de suporte. Estrutura lateral em U invertido, em tubo de aço de secção retangular, de 50x25x1,5mm, com pintura a tinta epoxídica. A estrutura  está à face do tampo, e este está elevado em relação à estrutura 0,5 mm. Tampo em aglomerado de partículas de madeira, com espessura de 21 mm, revestido a termolaminado de 0,8mm na face superior e contra face na inferior. Encabeçamento em perfil reto de PVC, com 3mm de espessura. Pontos de apoio no solo em poliamida 6, não desmontáveis por ação do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 16,
+            "name": ["Carro para Recolha de Livros", "Chariot a Libres", "Book Trolley"],
+            "cover": "assets/images/products/cover_caro_recolha_livros.png",
+            "description": [
+                "Estrutura móvel, formada por duas ilhargas laterais, e três prateleiras em cada frente de utilização. Ilhargas em madeira maciça de faia, com secção retangular de 60x30mm, arestas boleadas, e acabamento a verniz. Prateleiras em chapa de aço de 0,9mm de espessura, com pintura a tinta epoxídica, com resguardo posterior, impeditivo da queda de livros. Apoios no solo com quatro rodízios, com rasto em borracha, multidirecional, dois com travão.",
+                "Structure mobile, formé par deux montants latérales et trois étagères en chaque côté. Montantes en bois massif avec section rectangulaire 60x30mm bords arrondis et finition vernis de polyuréthane. Etagères en tôle d’acier de 0.9 mm d’épissure, peinture en époxy, en tous les étagères existe une protection frontal qu’empêche le chute des libres. Roulettes en caoutchouc, multidirectionnelles avec frein.",
+                "Estrutura móvel, formada por duas ilhargas laterais, e três prateleiras em cada frente de utilização. Ilhargas em madeira maciça de faia, com secção retangular de 60x30mm, arestas boleadas, e acabamento a verniz. Prateleiras em chapa de aço de 0,9mm de espessura, com pintura a tinta epoxídica, com resguardo posterior, impeditivo da queda de livros. Apoios no solo com quatro rodízios, com rasto em borracha, multidirecional, dois com travão."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 17,
+            "name": ["Caixa para Álbuns", "Bac a Libres", "Book Box"],
+            "cover": "assets/images/products/cover_caixa_albuns.png",
+            "description": [
+                "Corpo e divisórias, em aglomerado de madeira de 22mm, com revestimento nas duas faces a termolaminado, e encabeçamento em PVC de 3mm de espessura. Fundo revestido a borracha. Estrutura de apoio em tubo de aço de secção retangular de 50x25mm, com pintura a tinta epoxídica. Pontos de apoio no solo em poliamida 6, não desmontáveis por ação do uso.",
+                "Corps et séparations en mélaminé de 22 mm et bords de 2 mm. Fond revêtu à caoutchouc. Structure pour supporter le mobilier en tube d’acier rectangulaire 50x25mm. Revêtu a époxy. Emboutes en polyamide non démontables par usure.",
+                "Corpo e divisórias, em aglomerado de madeira de 22mm, com revestimento nas duas faces a termolaminado, e encabeçamento em PVC de 3mm de espessura. Fundo revestido a borracha. Estrutura de apoio em tubo de aço de secção retangular de 50x25mm, com pintura a tinta epoxídica. Pontos de apoio no solo em poliamida 6, não desmontáveis por ação do uso."
+            ],
+            "fotos": ["assets/images/products/show_caixa_albuns_m-300x266.png"],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 18,
+            "name": ["Estante Simples", "Rayonnage de Bibliothèque", "Simple Library Shelf"],
+            "cover": "assets/images/products/cover_estante_simples_biblioteca.png",
+            "description": [
+                "Conjunto formado por duas ilhargas laterais, travamentos e cinco prateleiras. Ilhargas em tubo de aço, de secção retangular de 60x 20×1,5mm, com pintura a tinta epoxídica. O travamento da estrutura é feito  X, com sistema de regulação. As laterais, são fechadas por painéis perfurados, em contraplacado de madeira de 16mm, com folhas exteriores em faia, com envernizamento a poliuretano, que impeçam a queda de livros. Prateleiras simples, em aglomerado de madeira, de 22 mm de espessura. A estante é equipada com porta títulos frontal na parte superior.",
+                "Formé par deux montants, verrouillages et cinq étagères. Montants en tube d’acier, rectangulaire 60x20x1,5 mm. Peinture à époxy. Verrouillages en Barre en X avec système de régulation et en barre de verrouillage. Peinture à époxy. Panneaux décoratifs sur les montants, perforés et en bois contreplaqué de 16 mm, en hêtre sur les deux côtés avec vernis de polyuréthane, servent aussi pour empêcher la chute des livres. Étagères Simples en mélaminé, de 22 mm d’épissure Étagère avec porte titres.",
+                "Conjunto formado por duas ilhargas laterais, travamentos e cinco prateleiras. Ilhargas em tubo de aço, de secção retangular de 60x 20×1,5mm, com pintura a tinta epoxídica. O travamento da estrutura é feito  X, com sistema de regulação. As laterais, são fechadas por painéis perfurados, em contraplacado de madeira de 16mm, com folhas exteriores em faia, com envernizamento a poliuretano, que impeçam a queda de livros. Prateleiras simples, em aglomerado de madeira, de 22 mm de espessura. A estante é equipada com porta títulos frontal na parte superior."
+            ],
+            "fotos": ["assets/images/products/estante_simples_biblioteca.png"],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 19,
+            "name": ["Sofá Individual LM02", "Riva", "Single Sofa LM02"],
+            "cover": "assets/images/products/cover_sofa_individual_lm02.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, assento, e braços. Estrutura de suporte em tubo de aço de secção circular, de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por acção do uso.",
+                "Fauteuil avec siège, dos et accoudoirs. Structure rigide en tube d’acier, de section circulaire, de de Ø 25×1.5 avec peinte à époxy. Siège et dos et accoudoirs en mousse de haute densité (65kgmᵌ), revêtu a tissue avec bonne résistances des coloris à lumière, bonne résistance à l’abrasion et résistantes à combustion M1. Emboutes en polyamide non démontables par usure.",
+                "Conjunto formado por estrutura de suporte, assento, e braços. Estrutura de suporte em tubo de aço de secção circular, de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por acção do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 20,
+            "name": ["Sofá Individual LM01", "Roling", "Single Sofa LM01"],
+            "cover": "assets/images/products/cover_sofa_individual_lm01.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, assento, e braços. Estrutura de suporte em tubo de aço de secção circular, de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso.",
+                "Fauteuil avec siège, dos et accoudoirs. Structure rigide en tube d’acier, de section circulaire, de de Ø 25×1.5 avec peinte à époxy. Siège et dos et accoudoirs en mousse de haute densité (65kgmᵌ), revêtu a tissue avec bonne résistances des coloris à lumière, bonne résistance à l’abrasion et résistantes à combustion M1. Emboutes en polyamide non démontables par usure.",
+                "Conjunto formado por estrutura de suporte, assento, e braços. Estrutura de suporte em tubo de aço de secção circular, de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 21,
+            "name": ["Sofá Individual LM03 e LM04", "Runa et Rui", "Single Sofa LM03 and LM04"],
+            "cover": "assets/images/products/cover_sofa_individual_lm03_and_lm4.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, assento, e com ou sem braços. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso.",
+                "Fauteuil avec siège, dos et accoudoirs. Structure rigide en tube d’acier, de section circulaire, de de Ø 25×1.5 avec peinte à époxy. Siège et dos et accoudoirs en mousse de haute densité (65kgmᵌ), revêtu a tissue avec bonne résistances des coloris à lumière, bonne résistance à l’abrasion et résistantes à combustion M1. Emboutes en polyamide non démontables par usure.",
+                "Conjunto formado por estrutura de suporte, assento, e com ou sem braços. Assento, costas e braços em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 22,
+            "name": ["Banquete", "Pouf Rito", "Pouffe Rito"],
+            "cover": "assets/images/products/cover_banquete.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte e assento. Estrutura de suporte em tubo de aço de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso.",
+                "Structure rigide en tube d’acier, de section circulaire, de de Ø 25×1.5 avec peinte à époxy. Siège en mousse de haute densité (65kgmᵌ), revêtu a tissue avec bonne résistances des coloris à lumière, bonne résistance à l’abrasion et résistantes à combustion M1. Emboutes en polyamide non démontables par usure.",
+                "Conjunto formado por estrutura de suporte e assento. Estrutura de suporte em tubo de aço de Ø de 25×1.5mm, com pintura a tinta epoxídica. Assento em espuma de poliuretano de alta densidade (65 kg / mᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Os pontos de apoio no solo devem ter terminais antirruído, resistentes ao desgaste, e não desmontáveis por ação do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 23,
+            "name": ["Cadeira Giratória", "Chaise Operatif", "Operative Chair"],
+            "cover": "assets/images/products/cover_cadeira_giratoria.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, assento e costa média. Base giratória em poliamida reforçada, com cinco pontos de apoio no solo, montados sobre rodízios duplos com pala, próprios para pavimentos duros. Assento e costas moldados, espuma de poliuretano de alta densidade, (65kgmᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Assento e Costas com proteção inferior e posterior em polipropileno. Assento com regulação em altura por sistema de elevação a gás. Costas com regulação e ajustamento em altura e profundidade, com sistema de contacto permanente. Braços em poliamida.",
+                "Fauteuil pivotant, avec base en polyamide renforcé, avec 5 pieds sur roulettes. Siège et dos en mousse de haute densité (65kgmᵌ), revêtu a tissue avec bonne résistances des coloris à lumière, bonne résistance à l’abrasion et résistantes à combustion M1. Siège et dos protèges a polyuréthane. Siège réglable en hauteur par système d’élévation à gaz. Dos avec régulation en profondeur et hauteur. Accoudoirs en polyamide.",
+                "Conjunto formado por estrutura de suporte, assento e costa média. Base giratória em poliamida reforçada, com cinco pontos de apoio no solo, montados sobre rodízios duplos com pala, próprios para pavimentos duros. Assento e costas moldados, espuma de poliuretano de alta densidade, (65kgmᵌ), com revestimento em tecido com boa solidez das cores à luz, boa resistência à abrasão, e resistência à combustão (classe M1). Assento e Costas com proteção inferior e posterior em polipropileno. Assento com regulação em altura por sistema de elevação a gás. Costas com regulação e ajustamento em altura e profundidade, com sistema de contacto permanente. Braços em poliamida."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 24,
+            "name": ["Armário Baixo Fechado", "Armoire de Bureaux Basse", "Low Office Cabinet"],
+            "cover": "assets/images/products/cover_armario_baixo_fechado.png",
+            "description": [
+                "Corpo, portas e prateleira em chapa de aço de 0.8mm de espessura, com pintura a tinta epoxídica. Duas portas de bater, com fechadura de cilindro e duas chaves dobráveis ao embate. Fechadura com sistema de vareta, de secção circular com 6mm de diâmetro, com fecho superior e inferior. As portas tem um reforço interior, de forma a evitar o seu empenamento. Interior com uma prateleira, removível e regulável em altura, por sistema de encaixe. As prateleiras  suportam cargas uniformemente distribuídas, até 100kg por prateleira, e permitir a suspensão de bolsas A4 na sua face inferior. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo são resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário.",
+                "Corps, portes et étagères en tôle d'acier 0.8 mm d’épissure. Peinte à époxy. Deux portes battantes, serrure avec deux clés pliants possibilité de serrure a 1 pointe, 2 pointes et 3 pointes. Avec une baguette métallique de Ø 6 mm de épissure. Portes avec renforcement intérieur. Étagères amovibles et réglables en hauteur. Les étagères supporté jusqu’à 100 Kg uniformément distribués. Les étagères permettre dossiers suspendus. Corps sur socle, avec vérins ajustables par l’intérieur de l’armoire.",
+                "Corpo, portas e prateleira em chapa de aço de 0.8mm de espessura, com pintura a tinta epoxídica. Duas portas de bater, com fechadura de cilindro e duas chaves dobráveis ao embate. Fechadura com sistema de vareta, de secção circular com 6mm de diâmetro, com fecho superior e inferior. As portas tem um reforço interior, de forma a evitar o seu empenamento. Interior com uma prateleira, removível e regulável em altura, por sistema de encaixe. As prateleiras  suportam cargas uniformemente distribuídas, até 100kg por prateleira, e permitir a suspensão de bolsas A4 na sua face inferior. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo são resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Armários", "Armoires", "Cabinets"],
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 25,
+            "name": ["Armário Vestiário", "Armoire Trois Portes", "Wardrobes"],
+            "cover": "assets/images/products/cover_armario_vestiario.png",
+            "description": [
+                "Corpo, portas e divisórias em chapa de aço de 0,8mm de espessura, com pintura a tinta epoxídica texturada. Armário com três cacifos verticais, com porta, com dispositivo em poliamida, que permita o seu fecho por cadeado. A lingueta da fechadura, quando fechada, deve encaixar na lateral da porta, de forma a impedir a sua rotação. Sistema impeditivo da saída das portas quando abertas. Costas e portas, perfuradas para ventilação. Portas com porta etiquetas. Cada cacifo tem uma prateleira superior e dois cabides, sob a prateleira, em varão de aço, com boa resistência, ao arranque e à dobragem. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário.",
+                "Corps, portes et étagères en tôle d'acier 0.8 mm d’épissure. Peinte à époxy. Armoire avec 3 portes, avec aérations et porte étiquetés, serrure par cadenas, portes avec oméga de renfort. Dans l’intérieur de chaque porte il y a une étagère, sur l’étagère il y a une porte cintre Corps sur socle, avec vérins ajustables par l’intérieur de l’armoire.",
+                "Corpo, portas e divisórias em chapa de aço de 0,8mm de espessura, com pintura a tinta epoxídica texturada. Armário com três cacifos verticais, com porta, com dispositivo em poliamida, que permita o seu fecho por cadeado. A lingueta da fechadura, quando fechada, deve encaixar na lateral da porta, de forma a impedir a sua rotação. Sistema impeditivo da saída das portas quando abertas. Costas e portas, perfuradas para ventilação. Portas com porta etiquetas. Cada cacifo tem uma prateleira superior e dois cabides, sob a prateleira, em varão de aço, com boa resistência, ao arranque e à dobragem. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Armários", "Armoires", "Cabinets"]
+            ]
+        },
+        {
+            "id": 26,
+            "name": ["Estrutura de Prateleiras", "Rayonnages", "Metal Shelving"],
+            "cover": "assets/images/products/cover_estrutura_prateleiras.png",
+            "description": [
+                "Estrutura sólida e indeformável, com prumos verticais em chapa de aço de 1,2mm de espessura, perfil em U, com pintura a tinta epoxídica. Travamentos horizontais, em chapa de aço de 1,2mm. Conjunto com 7 prateleiras em chapa de aço de 0,9mm de espessura, com abas de 40mm, com acabamento idêntico à estrutura. As prateleiras são removíveis e reguláveis em altura, por sistema de encaixe com botões, podendo suportar cargas, uniformemente distribuídas, até 150kg por prateleira. Pontos de apoio no solo, com terminais anti ruído, resistentes ao desgaste e não desmontáveis por ação do uso.",
+                "Structure solide. Pinte à epóxi.Montantes en tôle d’acier de 1.2 mm d’épissure, verrouillage horizontal avec 1.2 mm d’épissure. Sete étagères en tôle d’acier 0.9 mm d’épissure. Étagères amovibles et réglables en hauteur. Les étagères supporte jusqu’à 150 Kg par étagère. Emboutes en polyamide non démontables par usure.",
+                "Estrutura sólida e indeformável, com prumos verticais em chapa de aço de 1,2mm de espessura, perfil em U, com pintura a tinta epoxídica. Travamentos horizontais, em chapa de aço de 1,2mm. Conjunto com 7 prateleiras em chapa de aço de 0,9mm de espessura, com abas de 40mm, com acabamento idêntico à estrutura. As prateleiras são removíveis e reguláveis em altura, por sistema de encaixe com botões, podendo suportar cargas, uniformemente distribuídas, até 150kg por prateleira. Pontos de apoio no solo, com terminais anti ruído, resistentes ao desgaste e não desmontáveis por ação do uso."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Armários", "Armoires", "Cabinets"]
+            ]
+        },
+        {
+            "id": 27,
+            "name": ["Armário de Cacifos", "Armoire á Casiers", "Lockers"],
+            "cover": "assets/images/products/cover_cacifos.png",
+            "description": [
+                "Corpo, portas e divisórias em chapa de aço de 1mm de espessura, com pintura a tinta epoxídica texturada. Armário com nove cacifos (3×3), com porta, com fechadura em poliamida, para cadeado. A lingueta da fechadura, quando fechada, deve encaixar na lateral da porta, de forma a impedir a sua rotação. Sistema impeditivo da remoção da fechadura pelo interior do armário. As portas são resistentes a atos violentos, pelo que  possuem dois, reforços interiores. Sistema impeditivo da saída das portas quando abertas. Portas com porta etiquetas. As costas e as portas são perfuradas para ventilação. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário.",
+                "Corps, portes et étagères en tôle d'acier 1 mm d’épissure. Peinte à époxy. Armoire avec 9 casiers, avec aérations et porte étiquetés, serrure par cadenas, portes avec oméga de renfort. Corps sur socle, avec vérins ajustables par l’intérieur de l’armoire.",
+                "Corpo, portas e divisórias em chapa de aço de 1mm de espessura, com pintura a tinta epoxídica texturada. Armário com nove cacifos (3×3), com porta, com fechadura em poliamida, para cadeado. A lingueta da fechadura, quando fechada, deve encaixar na lateral da porta, de forma a impedir a sua rotação. Sistema impeditivo da remoção da fechadura pelo interior do armário. As portas são resistentes a atos violentos, pelo que  possuem dois, reforços interiores. Sistema impeditivo da saída das portas quando abertas. Portas com porta etiquetas. As costas e as portas são perfuradas para ventilação. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento regulável pelo interior do armário."
+            ],
+            "fotos": ["assets/images/products/cacifos_1.png", "assets/images/products/cacifos_2.png", "assets/images/products/cacifos_3.png", "assets/images/products/cacifos_4.png", "assets/images/products/cacifos_5.png"],
+            "tags": [
+                ["Armários", "Armoires", "Cabinets"]
+            ]
+        },
+        {
+            "id": 28,
+            "name": ["Expositor para Jornais", "Exposant de Journaux", "Newspaper Stand"],
+            "cover": "assets/images/products/cover_expositor_jornais.png",
+            "description": [
+                "Conjunto constituído por uma estrutura de apoio e um painel expositivo em malha metálica. Estrutura rígida, em tubo de aço de secção oval de 50mmx30mmx1,5mm, com pintura a tinta epoxídica. Base em tubo de secção oval de 60x30x1,5mm, com quatro rodízios multidirecionais, dois com travão, rasto em borracha, com Ø75mm, de diâmetro. Painel expositivo em varão de aço, com diâmetro de 8mm, de diâmetro, com malha de 50x50mm, com acabamento idêntico à estrutura.",
+                "Panneaux expositeur métallique. Structure rigide en tube ovale de 50mmx30mm et 1,5mm épissure, peinture en époxy. La base c’est en tube ovale 60×30 et 1,5mm épissure avec quatre roulettes en caoutchouc, multidirectionnelles, deux avec frein et Ø75mm. Panneaux expositeur en acier Ø 8 mm et maille en acier de 50x50mm avec finition identique à la structure.",
+                "Conjunto constituído por uma estrutura de apoio e um painel expositivo em malha metálica. Estrutura rígida, em tubo de aço de secção oval de 50mmx30mmx1,5mm, com pintura a tinta epoxídica. Base em tubo de secção oval de 60x30x1,5mm, com quatro rodízios multidirecionais, dois com travão, rasto em borracha, com Ø75mm, de diâmetro. Painel expositivo em varão de aço, com diâmetro de 8mm, de diâmetro, com malha de 50x50mm, com acabamento idêntico à estrutura."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 29,
+            "name": ["Cadeira Delta", "Chaise Delta", "Chair Delta"],
+            "cover": "assets/images/products/cover_cadeira_delta.png",
+            "description": [
+                "Estrutura rígida em tubo de aço de secção circular, com a espessura mínima de 1,5 mm, e diâmetro de 25 mm nas pernas e de 22 mm na restante estrutura. Assento e encosto em contraplacado de madeira, revestido a termolaminado nas duas faces, com a espessura mínima de 10 mm. Assento com perfil ergonómico, com forma côncava central até 15 mm de profundidade, em 2/3 da área do assento. Pontos de apoio no solo em plástico (poliamida 6), não desmontáveis. Estrutura com pintura a tinta epoxídica.",
+                "Structure avec 4 pieds, en tube d’acier Ø25mm et ép. 1.5 mm sur les pieds et Ø22mm en le reste de la structure, peinture en époxy. Siège et dos en stratifié de bois avec 10 mm d’épissure et finition en stratifié des deux côtés. Siège ergonomique concave en le centre jusque à 15 mm de profonde en 2/3 de la superficie de la chaise. Embouties en polyamide.",
+                "Estrutura rígida em tubo de aço de secção circular, com a espessura mínima de 1,5 mm, e diâmetro de 25 mm nas pernas e de 22 mm na restante estrutura. Assento e encosto em contraplacado de madeira, revestido a termolaminado nas duas faces, com a espessura mínima de 10 mm. Assento com perfil ergonómico, com forma côncava central até 15 mm de profundidade, em 2/3 da área do assento. Pontos de apoio no solo em plástico (poliamida 6), não desmontáveis. Estrutura com pintura a tinta epoxídica."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"],
+                ["Escolar", "Scolaire", "School"]
+            ]
+        },
+        {
+            "id": 30,
+            "name": ["Yulius", "Yulius", "Yulius"],
+            "cover": "assets/images/products/cover_yulius.png",
+            "description": [
+                "Todo o armário é construído com painéis em aglomerado de 22mm de espessura revestido em ambas as faces, folheado a madeira natural com todos os topos em madeira maciça, sem arestas contundentes, boleadas. Em madeira maciça, com ranhuras em 2 lados opostos de forma a facilitar o seu manuseamento. Todo o acabamento do conjunto interior e exterior é feito a verniz de poliuretano mate.",
+                "Armoire été construit en panneaux d’aggloméré de 22 mm épissure, revêtu en les deux côtes a placage en bois, et en haut et revêtu a bois massif avec les bords arrondis avec fentes en les deux côtes.",
+                "Todo o armário é construído com painéis em aglomerado de 22mm de espessura revestido em ambas as faces, folheado a madeira natural com todos os topos em madeira maciça, sem arestas contundentes, boleadas. Em madeira maciça, com ranhuras em 2 lados opostos de forma a facilitar o seu manuseamento. Todo o acabamento do conjunto interior e exterior é feito a verniz de poliuretano mate."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 31,
+            "name": ["Secretária MAIA", "Bureau Admnistratif MAIA", "Office Desk MAIA"],
+            "cover": "assets/images/products/cover_secretaria_maia.png",
+            "description": [
+                "Conjunto formado por tampo, estrutura de suporte e painel frontal. Estrutura em tubo quadrado pintado a epoxy. Tampo em melamina de 22mm de espessura com orla em PVC. Painel frontal em chapa de aço de 0,9mm de espessura, integralmente perfurada. Pintura idêntica à estrutura. Pontos de apoio no solo em poliamida 6, com sistema de nivelamento, não desmontáveis.",
+                "Bureaux avec constitué par plateaux en mélaminé de 22 mm de épissure avec bords en PVC , structure en tube d'acier carré. Voile de fond en tôle d’acier 0.9 mm. Peinture à époxy. Emboutes en polyamide 6 avec vérins, non démontables.",
+                "Conjunto formado por tampo, estrutura de suporte e painel frontal. Estrutura em tubo quadrado pintado a epoxy. Tampo em melamina de 22mm de espessura com orla em PVC. Painel frontal em chapa de aço de 0,9mm de espessura, integralmente perfurada. Pintura idêntica à estrutura. Pontos de apoio no solo em poliamida 6, com sistema de nivelamento, não desmontáveis."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 32,
+            "name": ["Beliche", "Lit Superposé", "Bunk Beds"],
+            "cover": "assets/images/products/cover_beliche.png",
+            "description": [
+                "Beliche modelo prisional, constituído por dois leitos modelo prisional, com cabeceiras articuladas a beliche dotado de topos tapados com chapa de aço e protegidos com proteções em borracha, estrutura em tubo de aço de 1 ½ e 1 polegada de diâmetro com espessura de 1,5 mm, com estrado em chapa perfurada de 2,5 mm de espessura com furos redondos de 10 mm de diâmetro e afastamento entre centros 20 mm, soldada com soldadura a CO2 a aro em cantoneira 45 x 45 x 5 mm, suportada por 3 barras de ferro chatas de 30 x 5mm, com acabamento pré galvanizado e pintado a pó termo endurecido de cor a definir incluindo fixação do aro à estrutura das cabeceiras por encaixe e aparafusamento, bem como dois colchões de espuma de 25 Kg revestido a capa de tecido, proteções de borracha e adaptação a beliche e com as com as dimensões de 1800 x 850 mm.",
+                "Modèle pour les prisions avec deux lits, les têtes des lit sont en tôle d’acier, protèges avec caoutchoucs. Structure en tube d’acier de de 1 ½ e 1 pouce de diamètre et épissure de 1.5 mm. Les port matelasit sont en tôle de 2.5 mm d’épissure perforé avec troues rondes de diamètre de 10 mm et avec d’une distance entre les centres des toues de 20 mm. Soudage à dioxyde de carbone en barre d’acière façonnes 45 x 45 x 5 mm, supportes par 3 barres d’acier. Finition pré galvanisé et pinté à époxy. Fixation des jantes ou tête du lit par vices ou encaissement. Matelas en mousse de 25 Kg revêtus a tissue. Protections a caoutchoucs.",
+                "Beliche modelo prisional, constituído por dois leitos modelo prisional, com cabeceiras articuladas a beliche dotado de topos tapados com chapa de aço e protegidos com proteções em borracha, estrutura em tubo de aço de 1 ½ e 1 polegada de diâmetro com espessura de 1,5 mm, com estrado em chapa perfurada de 2,5 mm de espessura com furos redondos de 10 mm de diâmetro e afastamento entre centros 20 mm, soldada com soldadura a CO2 a aro em cantoneira 45 x 45 x 5 mm, suportada por 3 barras de ferro chatas de 30 x 5mm, com acabamento pré galvanizado e pintado a pó termo endurecido de cor a definir incluindo fixação do aro à estrutura das cabeceiras por encaixe e aparafusamento, bem como dois colchões de espuma de 25 Kg revestido a capa de tecido, proteções de borracha e adaptação a beliche e com as com as dimensões de 1800 x 850 mm."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Diversos", "Divers", "Various"]
+            ]
+        },
+        {
+            "id": 33,
+            "name": ["Cadeira Regulável", "Chaise Atena", "Chair Atena"],
+            "cover": "assets/images/products/cover_cadeira_regulavel.png",
+            "description": [
+                "Estrutura, com coluna central, com tubo exterior em aço, de secção circular, de Ø 60×1,5mm e tubo de ligação ao fuso em aço de secção circular, de Ø 48 x 1,5mm tubo de suporte ao cone em aço, com secção circular, de Ø 70 x 2mm, com pintura a tinta epoxídica. Assento com perfil ergonómico, com forma côncava central até 15 mm de profundidade, em 2/3 da área do assento. Base com cinco braços de apoio no solo, em chapa de aço estampada, de 2mm de espessura. Braços de forma pentagonal, com pintura a tinta epoxídica. As ligações dos apoios à coluna central, devem estar ocultas, por sistema não desmontável. Pontos de apoio no solo, fixos, com terminais em poliamida 6, não desmontáveis por ação do uso. Apoio para os pés, de forma circular, em tubo de aço  de secção circular de Ø 22 x 1,5mm.",
+                "Structure avec une colonne centrale, avec un tube d’acier de section circulaire Ø 60 x 1,5 mm. Tube de liaison ou broche d’acier en section circulaire, de Ø 48 x 1.5mm et tube de support en cône d’acier avec une section circulaire de Ø 70 x 2mm. Avec cinq points de supporte ou sol en tôle d’acier de 2 mm. Support pour les pieds en tube d’acier Ø 22 x 1,5mm. Liaison colonne central cachés par système non démontable. Points de support fixés avec emboutes en polyamide, non démontables avec l’utilisation. Structure pinte à époxy. Supporte au sol en polyamide. Siège ergonomique concave en le centre jusque à 15 mm de profonde en 2/3 de la superficie de la chaise.",
+                "Estrutura, com coluna central, com tubo exterior em aço, de secção circular, de Ø 60×1,5mm e tubo de ligação ao fuso em aço de secção circular, de Ø 48 x 1,5mm tubo de suporte ao cone em aço, com secção circular, de Ø 70 x 2mm, com pintura a tinta epoxídica. Assento com perfil ergonómico, com forma côncava central até 15 mm de profundidade, em 2/3 da área do assento. Base com cinco braços de apoio no solo, em chapa de aço estampada, de 2mm de espessura. Braços de forma pentagonal, com pintura a tinta epoxídica. As ligações dos apoios à coluna central, devem estar ocultas, por sistema não desmontável. Pontos de apoio no solo, fixos, com terminais em poliamida 6, não desmontáveis por ação do uso. Apoio para os pés, de forma circular, em tubo de aço  de secção circular de Ø 22 x 1,5mm."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 34,
+            "name": ["Banco Regulável", "Banc Cadu", "Bench Cadu"],
+            "cover": "assets/images/products/cover_banco_regulavel.png",
+            "description": [
+                "Estrutura, com coluna central, com tubo exterior em aço, de secção circular, de Ø 60 x 1,5mm com pintura a tinta epoxídica. Tubo de ligação ao fuso em aço de secção circular, de Ø 48 x 1.5mm e tubo de suporte ao cone em aço, com secção circular, de Ø 70 x 2mm. secção circular, de Ø 70 x 2mm. Assento com regulação em altura por sistema de fuso roscado de secção circular, Ø 25mm, Assento de forma circular, em MDF, com 30mm de espessura. Base com cinco pontos de apoio no solo, em chapa de aço estampada, de 2mm de espessura, com pintura a tinta epoxídica. Pontos de apoio no solo, fixos, com terminais em poliamida 6, não desmontáveis por acção do uso. Apoio para os pés, de forma circular, em tubo de aço  de secção circular de Ø 22 x 1,5mm.",
+                "Structure avec une colonne centrale, avec un tube d’acier de section circulaire Ø 60 x 1,5 mm. Tube de liaison ou broche d’acier en section circulaire, de Ø 48 x 1.5mm et tube de support en cône d’acier avec une section circulaire de Ø 70 x 2mm. Avec cinq points de supporte ou sol en tôle d’acier de 2 mm. Support pour les pieds en tube d’acier Ø 22 x 1,5mm. Points de support fixés avec emboutes en polyamide, non démontables avec l’utilisation. Structure pinte à époxy. Siege en MDF circulaire avec 30 mm d’épissure.",
+                "Estrutura, com coluna central, com tubo exterior em aço, de secção circular, de Ø 60 x 1,5mm com pintura a tinta epoxídica. Tubo de ligação ao fuso em aço de secção circular, de Ø 48 x 1.5mm e tubo de suporte ao cone em aço, com secção circular, de Ø 70 x 2mm. secção circular, de Ø 70 x 2mm. Assento com regulação em altura por sistema de fuso roscado de secção circular, Ø 25mm, Assento de forma circular, em MDF, com 30mm de espessura. Base com cinco pontos de apoio no solo, em chapa de aço estampada, de 2mm de espessura, com pintura a tinta epoxídica. Pontos de apoio no solo, fixos, com terminais em poliamida 6, não desmontáveis por acção do uso. Apoio para os pés, de forma circular, em tubo de aço  de secção circular de Ø 22 x 1,5mm."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 35,
+            "name": ["Mesa de Desenho", "Table Iva", "Drawing Table"],
+            "cover": "assets/images/products/cover_mesa_desenho.png",
+            "description": [
+                "Estrutura de suporte e um tampo basculante. Estrutura  com prumos verticais em tubo de aço de secção circular de 38 mm. Bases em tubo de secção oval (ao baixo) de 60 x 30 mm com a espessura mínima de 1,5 mm. Ligação das laterais em tubo de aço de secção retangular de 40 x 20 mm, com a espessura mínima de 1,5 mm. Tampo em aglomerado de madeira MDF com espessura  de 21 mm, revestido a termolaminado de 0,8 mm nas duas faces. Encabeçamento com perfil reto, em plástico (PVC) com 2 mm de espessura. O tampo com uma régua em madeira maciça de faia, com rebaixo para apoio de acessórios. Regulação da inclinação do tampo por sistema de encaixe.",
+                "Structure de supporte et plateau basculante. Structure verticale en tube d’acier circulaire Ø38 mm. Bases en tube d’acier ovale de 60×30 avec épissure 1,5 mm. Latérales en tube d’acier rectangulaire 40×20 mm avec épissure de 1,5 mm minimum. Plateaux en MDF avec 21 mm d’épissure, revêtu a stratifie de 0.8 mm en les deux côtes. Plateaux avec une règle en le top en bois massif d’être que permetre la colocation des accessoires de dessin, et bords en pvc.",
+                "Estrutura de suporte e um tampo basculante. Estrutura  com prumos verticais em tubo de aço de secção circular de 38 mm. Bases em tubo de secção oval (ao baixo) de 60 x 30 mm com a espessura mínima de 1,5 mm. Ligação das laterais em tubo de aço de secção retangular de 40 x 20 mm, com a espessura mínima de 1,5 mm. Tampo em aglomerado de madeira MDF com espessura  de 21 mm, revestido a termolaminado de 0,8 mm nas duas faces. Encabeçamento com perfil reto, em plástico (PVC) com 2 mm de espessura. O tampo com uma régua em madeira maciça de faia, com rebaixo para apoio de acessórios. Regulação da inclinação do tampo por sistema de encaixe."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 36,
+            "name": ["Armário para Desenhos", "Armoire a Dessin", "Drawings Cabinet"],
+            "cover": "assets/images/products/cover_armario_desenhos.png",
+            "description": [
+                "Corpo, e gavetas em chapa de aço de 1,2mm de espessura, com pintura a tinta epoxídica. Conjunto com nove gavetas para formato A1, montadas em calhas telescópicas com sistema de esferas, extraíveis a 75%. Impossibilidade de abertura simultânea das gavetas. Gavetas com fechadura de cilindro, com duas chaves dobráveis ao embate. Puxadores e porta etiquetas. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento.",
+                "Corps et tiroirs en tôle d’acier de 1,2 mm d’épissure, neuf tiroirs en formatent A1, montés sur glissières, Impossibilité de l’ouverture simultanée des tiroirs. Tiroirs avec serrures avec clés pliantes, poignes et porte étiquetés. Peinture à époxy. Armoire avec socle et vérins.",
+                "Corpo, e gavetas em chapa de aço de 1,2mm de espessura, com pintura a tinta epoxídica. Conjunto com nove gavetas para formato A1, montadas em calhas telescópicas com sistema de esferas, extraíveis a 75%. Impossibilidade de abertura simultânea das gavetas. Gavetas com fechadura de cilindro, com duas chaves dobráveis ao embate. Puxadores e porta etiquetas. O corpo do armário assenta num soco fechado, cujos pontos de apoio no solo devem ser resistentes ao desgaste e com sistema de nivelamento."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"]
+            ]
+        },
+        {
+            "id": 37,
+            "name": ["Banco Corrido", "Banc Simples", "Bench"],
+            "cover": "assets/images/products/cover_banco_corrido.png",
+            "description": [
+                "Conjunto formado por estrutura de suporte, e assento. Estrutura, com pernas em tubo de aço, de secção circular de Ø 38×1.5 mm, e travamentos em tubo de aço de secção quadrada de 40x20mm, com pintura a tinta epoxídica. Assento em réguas de madeira maciça de faia, com a espessura mínima de 22mm, com arestas com perfil em meia cana. Acabamento a verniz de poliuretano. Pontos de apoio no solo em poliamida 6, com sistema impeditivo da sua saída.",
+                "Structure formé par siège, pies en tube d’acier rondes Ø 38×1.5 mm et verrouillage en tubes d’acière carrés de 40x20mm.Pintés a époxy. Siège et dos en bois massif de hêtre ou pin avec une épissure minimum de 22 mm, bords demi ronds, finition a vernis de polyuréthane. Emboutes en polyamide 6 avec vérins, non démontables.",
+                "Conjunto formado por estrutura de suporte, e assento. Estrutura, com pernas em tubo de aço, de secção circular de Ø 38×1.5 mm, e travamentos em tubo de aço de secção quadrada de 40x20mm, com pintura a tinta epoxídica. Assento em réguas de madeira maciça de faia, com a espessura mínima de 22mm, com arestas com perfil em meia cana. Acabamento a verniz de poliuretano. Pontos de apoio no solo em poliamida 6, com sistema impeditivo da sua saída."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Diversos", "Divers", "Various"]
+            ]
+        },
+        {
+            "id": 38,
+            "name": ["Mesa de Informática", "Table Josy", "Computer Table"],
+            "cover": "assets/images/products/cover_mesa_informatica.png",
+            "description": [
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy. Equipada com calha metálica para passagem de cabos.",
+                "Table 2 places. Structure métallique en tube d’acier Ø38 et épissure 1.5mm. Revêtu époxy. Plateau disponible en mélaminé épissure 22mm et chant en PVC. Vérins de réglage ou emboutes en polyamide os.",
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy. Equipada com calha metálica para passagem de cabos."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escolar", "Scolaire", "School"]
+            ]
+        },
+        {
+            "id": 39,
+            "name": ["Secretária de Professor", "Bureau de Professeur JUNA", "Teacher's Secretary"],
+            "cover": "assets/images/products/cover_secretaria_professor.png",
+            "description": [
+                "Estrutura em tubo de aço. Tampo em melamina. Painel frontal e gavetas em chapa de aço. Estrutura com pintura epoxy e orlas em PVC. Terminais em poliamida.Bloco de gavetas metálico.",
+                "Structure métallique en tube d’acier. Avec tiroirs métalliques, structure et tiroirs  revêtu à époxy. Voile de fond en  métal revêtu a epoxy.Plateaux en melaminé . Plateau disponible en mélaminé et chant en PVC. Vérins de réglage  ou emboutes en polyamide.",
+                "Estrutura em tubo de aço. Tampo em melamina. Painel frontal e gavetas em chapa de aço. Estrutura com pintura epoxy e orlas em PVC. Terminais em poliamida.Bloco de gavetas metálico."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escolar", "Scolaire", "School"]
+            ]
+        },
+        {
+            "id": 40,
+            "name": ["Mesa Múltipla", "Table Gala", "Table Gala"],
+            "cover": "assets/images/products/cover_mesa_multipla.png",
+            "description": [
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Table 2 places. Structure métallique en tube d’acier Ø38 et épissure 1.5mm. Revêtu époxy. Plateau disponible en mélaminé épissure 22mm et chant en PVC. Vérins de réglage ou emboutes en polyamide.",
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escolar", "Scolaire", "School"]
+            ]
+        },
+        {
+            "id": 41,
+            "name": ["Mesa Individual", "Table Gaia", "Table Gaia"],
+            "cover": "assets/images/products/cover_mesa_individual.png",
+            "description": [
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Table 1 place. Structure métallique en tube d’acier Ø50-38 et épissure 1.5mm. Revêtu époxy. Plateau disponible en mélaminé épissure 22mm et chant en PVC. Vérins de réglage ou emboutes en polyamide.",
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escolar", "Scolaire", "School"]
+            ]
+        },
+        {
+            "id": 42,
+            "name": ["Cavalete de Pintura", "Chevalet Pour Peinture", "Painting Easel"],
+            "cover": "assets/images/products/cover_cavalete_pintura.png",
+            "description": [
+                "Estrutura em madeira maciça de faia. Superfície em Melamina. Madeira com verniz poliuretano.",
+                "Structure en bois massif de hêtre, vernis polyuréthane. Surface en mélamine.",
+                "Estrutura em madeira maciça de faia. Superfície em Melamina. Madeira com verniz poliuretano."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 43,
+            "name": ["Espelho", "Miroir", "Mirror"],
+            "cover": "assets/images/products/cover_espelho.png",
+            "description": [
+                "Estrutura em madeira maciça de faia. Superfície em espelho. Estrutura com verniz poliuretano.",
+                "Structure en bois massif de hêtre, vernis polyuréthane. Surface en miroir.",
+                "Estrutura em madeira maciça de faia. Superfície em espelho. Estrutura com verniz poliuretano."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 44,
+            "name": ["Cozinha Casa de Bonecas", "Cuisine Maison de Poupée", "Kitchen Dollhouse"],
+            "cover": "assets/images/products/cover_cozinha_casa_bonecas.png",
+            "description": [
+                "Estrutura em faia, com verniz poliuretano. Lava-loiça em polipropileno.",
+                "Structure en hêtre, vernis polyuréthane. Lave vaisselle en polyuréthane.",
+                "Estrutura em faia, com verniz poliuretano. Lava-loiça em polipropileno."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 45,
+            "name": ["Quarto Casa de Bonecas", "Chambre Maison de Poupée", "Bedroom Dollhouse"],
+            "cover": "assets/images/products/cover_quarto_casa_bonecas.png",
+            "description": [
+                "Estrutura em  faia, com verniz poliuretano. Colchão incluído.",
+                "Structure en hêtre, vernis polyuréthane. Matelas inclus.",
+                "Estrutura em  faia, com verniz poliuretano. Colchão incluído."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 46,
+            "name": ["Pouf Circular", "Pouf Round RIDER", "Circular puff"],
+            "cover": "assets/images/products/cover_pouf_redondo.png",
+            "description": [
+                "Pouf em Espuma Monobloco. Estofado em semi-pele e interior em espuma de alta densidade.",
+                "Extérieur peau artificielle. Intérieur  polystyrène. Pouf en mousse monobloc. Intérieur en  mousse de haute densité.",
+                "Pouf em Espuma Monobloco. Estofado em semi-pele e interior em espuma de alta densidade."
+            ],
+            "fotos": ["assets/images/products/pouf_redondo_1.png", "assets/images/products/pouf_redondo_2.png", "assets/images/products/pouf_redondo_3.png", "assets/images/products/pouf_redondo_4.png"],
+            "tags": [
+                ["Escolar", "Scolaire", "School"],
+                ["Pré-Escolar", "Préscolaire", "Preschool"],
+                ["Biblioteca", "Bibliothèque", "Lybrary"],
+                ["Escritório", "Bureau", "Office"]
+            ]
+        },
+        {
+            "id": 47,
+            "name": ["Mesa Trapezoidal", "Table Trapezè", "Trapezoidal Table"],
+            "cover": "assets/images/products/cover_mesa_trapezoidal.png",
+            "description": [
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Piètement en tube d’acier revêtu a époxy de Ø 50-32 par 1,5 ép. Plateau en mélaminé  de ép: 22 mm avec chants en PVC. Verins de  réglage ou emboutes en polyamide.",
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": ["assets/images/products/mesa_trapezoidal_1.png", "assets/images/products/mesa_trapezoidal_2.png", "assets/images/products/mesa_trapezoidal_3.png", "assets/images/products/mesa_trapezoidal_4.png"],
+            "tags": [
+                ["Escolar", "Scolaire", "School"],
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 48,
+            "name": ["Mesa Trevo", "Table Trefle", "Table Clover"],
+            "cover": "assets/images/products/cover_mesa_trevo.png",
+            "description": [
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em MDF de 22mm de espessura. Orla envernizada. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Piètement en tube d’acier revêtu a époxy de Ø 50-32 par 1,5 ép. Plateeau en mélaminé  de ép: 22 mm avec chants en PVC. Vérins de  réglage ou emboutes en polyamide.",
+                "Estrutura metálica  tubo de aço de secção redonda de 38×1,5mm. Tampo em MDF de 22mm de espessura. Orla envernizada. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 49,
+            "name": ["Pouf Pêra", "Pouf Poire", "Pear Pouf"],
+            "cover": "assets/images/products/cover_pouf_pera.png",
+            "description": [
+                "Pouf em semi-pele. Interior em bolas de esferovite.",
+                "Extérieur peau artificielle. Intérieur polystyrène.",
+                "Pouf em semi-pele. Interior em bolas de esferovite."
+            ],
+            "fotos": ["assets/images/products/pouf_pera_1.png", "assets/images/products/pouf_pera_2.png", "assets/images/products/pouf_pera_3.png", "assets/images/products/pouf_pera_4.png"],
+            "tags": [
+                ["Escolar", "Scolaire", "School"],
+                ["Pré-Escolar", "Préscolaire", "Preschool"],
+                ["Biblioteca", "Bibliothèque", "Lybrary"]
+            ]
+        },
+        {
+            "id": 50,
+            "name": ["Cadeira em Polipropileno", "Chaise Ida", "Polypropylene Chair"],
+            "cover": "assets/images/products/cover_cadeira_polipropileno.png",
+            "description": [
+                "Cadeira integralmente produzida em polipropileno de dupla parede, obtida por injeção assistida por gás de uma só peça para maior resistência e durabilidade.",
+                "Chaise entièrement en polypropylène de parois double, fait par injection à gaz de une seule pièce pour une plus grande résistance.",
+                "Cadeira integralmente produzida em polipropileno de dupla parede, obtida por injeção assistida por gás de uma só peça para maior resistência e durabilidade."
+            ],
+            "fotos": ["assets/images/products/cadeira_polipropileno_1.png", "assets/images/products/cadeira_polipropileno_2.png", "assets/images/products/cadeira_polipropileno_3.png", "assets/images/products/cadeira_polipropileno_4.png"],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 51,
+            "name": ["Sofá Cambalhota", "Salto Canapé", "Somersault Sofa"],
+            "cover": "assets/images/products/cover_sofa_cambalhota.png",
+            "description": [
+                "Sofá em Espuma. Estofado em semi-pele e interior em espuma de alta densidade.",
+                "Canapé en peau artificielle. Intérieur en mousse de haute densité.",
+                "Sofá em Espuma. Estofado em semi-pele e interior em espuma de alta densidade."
+            ],
+            "fotos": ["assets/images/products/sofa_cambalhota_1.png", "assets/images/products/sofa_cambalhota_2.png", "assets/images/products/sofa_cambalhota_3.png", "assets/images/products/sofa_cambalhota_4.png"],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 52,
+            "name": ["Pouf Quadrado", "Pouf Carré", "Square Pouf"],
+            "cover": "assets/images/products/cover_pouf_quadrado.png",
+            "description": [
+                "Pouf em Espuma Monobloco.Estofado em semi-pele e interior em espuma de alta densidade.",
+                "Extérieur peau artificielle. Intérieur polystyrène. Pouf en mousse monobloc. Intérieur en  mousse de haute densité.",
+                "Pouf em Espuma Monobloco.Estofado em semi-pele e interior em espuma de alta densidade."
+            ],
+            "fotos": ["assets/images/products/pouf_quadrado_1.png", "assets/images/products/pouf_quadrado_2.png", "assets/images/products/pouf_quadrado_3.png", "assets/images/products/pouf_quadrado_4.png"],
+            "tags": [
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
+            ]
+        },
+        {
+            "id": 53,
+            "name": ["Mesa Semi-Circular", "Table Lune", "Half Moon Table"],
+            "cover": "assets/images/products/cover_mesa_semicircular.png",
+            "description": [
+                "Estrutura metálica tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy.",
+                "Table Demi-Lune. Piètement en tube d’acier revêtu a époxy de Ø 50-32 par 1,5 ép. Plateau en mélaminé  de ép: 22 mm avec chants en PVC. Vérins de réglage ou emboutes en polyamide.",
+                "Estrutura metálica tubo de aço de secção redonda de 38×1,5mm. Tampo em Melamina de 22mm de espessura. Orla em PVC. Tacos interiores de proteção em poliamida antirruído e anti-desgaste. Pintura a Epoxy."
+            ],
+            "fotos": [],
+            "tags": [
+                ["Escolar", "Scolaire", "School"],
+                ["Pré-Escolar", "Préscolaire", "Preschool"]
             ]
         }
     ]

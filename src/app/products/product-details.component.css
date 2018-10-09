@@ -1,0 +1,92 @@
+.product-detail-container {
+  background-color: #f8f8f8;
+}
+
+.product-detail-container,
+.product-detail-container .left-container,
+.product-detail-container .right-container { min-height: calc(100vh - 150px); }
+
+.product-detail-container .left-container {
+  width: 100%;
+}
+
+.product-detail-container .left-container,
+.product-detail-container .right-container {
+  padding: 20px;
+}
+
+.product-detail-container .left-container img {
+  height: 800px;
+  width: 800px;
+}
+
+.product-detail-container .right-container {
+  box-shadow: 3px 0 10px 0 rgba(0,0,0,.3);
+  background-color: #fff;
+}
+
+.product-detail-container .right-container h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 10px 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-detail-container .right-container .description-container {
+  max-width: 60%;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 5%;
+  padding: 0 50px;
+}
+
+.product-detail-container .right-container .images-container {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.product-detail-container .right-container .images-container img {
+  height: auto;
+  width: 250px;
+}
+
+@media (max-width: 599px) {
+  .product-detail-container { min-height: calc(100vh - 106px); }
+
+  .product-detail-container .left-container img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .product-detail-container .right-container h1 {
+    font-size: 28px;
+  }
+
+  .product-detail-container .right-container .description-container {
+    font-size: 18px;
+  }
+
+  .product-detail-container .right-container .images-container img {
+    height: 200px;
+    width: auto;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 1279px) {
+  .product-detail-container .left-container,
+  .product-detail-container .right-container {
+    min-height: unset;
+  }
+  .product-detail-container .left-container img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .product-detail-container .right-container h1 {
+    font-size: 60px;
+  }
+
+  .product-detail-container .right-container .description-container {
+    font-size: 18px;
+  }
+}

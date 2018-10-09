@@ -7,7 +7,8 @@
       </div>
   </div>
   <div fxLayout="row wrap" class="list-container">
-    <a fxFlex="25" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33" fxLayoutAlign="center end" *ngFor="let product of filteredProducts" class="product-container" [ngStyle]="{'background-image': 'url(' + product.cover + ')'}">
+    <a fxFlex="25" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33" fxLayoutAlign="center end"
+      *ngFor="let product of filteredProducts" class="product-container no-decoration" [ngStyle]="{'background-image': 'url(' + product.cover + ')'}" (click)="goToProduct(product)">
       <span fxLayoutAlign="center center">{{product.name[currentLanguage]}}</span>
     </a>
   </div>

@@ -24,6 +24,7 @@ a.product-container {
   background-position: center center;
   background-size: 85%;
   background-repeat: no-repeat;
+  color: #323232;
 }
 
 a.product-container:hover {
@@ -53,11 +54,7 @@ a.product-container:hover > span {
     border-bottom: 1px solid #ddd;
   }
 
-  a.product-container span {
-    height: 20%;
-    opacity: 0.8;
-    font-size: 16px;
-  }
+
 }
 
 @media (max-width: 1024px) {
@@ -67,5 +64,10 @@ a.product-container:hover > span {
   }
   a.product-container {
     height: 300px;;
+  }
+  a.product-container span {
+    height: 20%;
+    opacity: 0.8;
+    font-size: 16px;
   }
 }

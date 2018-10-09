@@ -5,6 +5,8 @@
     ["Escolar", "Scolaire", "School"],
     ["Biblioteca", "Bibliothèque", "Lybrary"],
     ["Escritório", "Bureau", "Office"],
-    ["Armários", "Armoires", "Cabinets"]
+    ["Armários", "Armoires", "Cabinets"],
+    ["Salas de Desenho", "Salle de Classe de Dessin", "Drawing Classroom"],
+    ["Diversos", "Divers", "Various"]
   ]
 }

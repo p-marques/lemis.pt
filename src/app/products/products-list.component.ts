@@ -3,9 +3,7 @@ import { ProductsService } from './products.service';
 import { IProduct } from '../models/products';
 import { TranslateService } from '../shared/translate.service';
 import { LanguageCode } from '../models/enums';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { map } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'lemis-products-list',
@@ -13,28 +11,21 @@ import { Observable } from 'rxjs';
   styleUrls: ['./products-list.component.css']
 })
 export class ProductsListComponent implements OnInit {
-  products: IProduct[];
-  filteredProducts: IProduct[];
+  filteredProducts: IProduct[] = [];
   tags: string[][];
-  selectedTag: string[] = ['', '', ''];
+  selectedTag: string[] = ['Todos', 'Tout', 'All'];
 
   public get currentLanguage(): LanguageCode {
     return this.translateService.appLanguage;
   }
 
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
-    .pipe(
-      map(result => result.matches)
-  );
-
-  constructor(private breakpointObserver: BreakpointObserver, private productsService: ProductsService,
-    private translateService: TranslateService) { }
+  constructor(private productsService: ProductsService, private translateService: TranslateService, private router: Router) { }
 
   ngOnInit() {
     this.productsService.getProducts().subscribe(
       data => {
-        this.products = data.products;
-        this.filterProducts(['Todos']);
+        this.productsService.products = data.products;
+        this.filterProducts(this.selectedTag);
       }
     );
 
@@ -53,13 +44,13 @@ export class ProductsListComponent implements OnInit {
 
   private filterProducts(inTag: string[]) {
     if (inTag[0] === 'Todos') {
-      this.filteredProducts = this.products;
+      this.filteredProducts = this.productsService.products;
       return;
     }
 
     this.filteredProducts = [];
-    for (let i = 0; i < this.products.length; i++) {
-      const product = this.products[i];
+    for (let i = 0; i < this.productsService.products.length; i++) {
+      const product = this.productsService.products[i];
 
       for (let y = 0; y < product.tags.length; y++) {
         const tag = product.tags[y];
@@ -74,6 +65,12 @@ export class ProductsListComponent implements OnInit {
 
   public isSelectedTag(tag: string[]): boolean {
     return this.selectedTag[this.currentLanguage] === tag[this.currentLanguage];
+  }
+
+  public goToProduct(product: IProduct): void {
+    const n = product.name[this.currentLanguage].replace(new RegExp(' ', 'g'), '-');
+
+    this.router.navigate(['/produtos', product.id, { nome: n }]);
   }
 
 }

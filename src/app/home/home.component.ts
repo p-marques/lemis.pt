@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  videoUrl = '/assets/videos/welcome_video_high_quality.mp4';
 
   constructor() { }
 

@@ -7,7 +7,7 @@ import { INewsCollection, INewsItem } from '../models/news';
     providedIn: 'root'
 })
 export class NewsService {
-    private _newsApiUrl = 'api/news.json';
+    private _newsApiUrl = '/api/news.json';
 
    public getNewsItems(): Observable<INewsCollection> {
         return this.http.get<INewsCollection>(this._newsApiUrl);

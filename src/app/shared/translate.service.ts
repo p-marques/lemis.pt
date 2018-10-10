@@ -26,15 +26,15 @@ export class TranslateService {
 
   // Methods
   public getNavStrings(): Observable<INavTranslations> {
-    return this.http.get<INavTranslations>('api/navText.json');
+    return this.http.get<INavTranslations>('/api/navText.json');
   }
 
   public getCompanyString(): Observable<ICompanyText> {
-    return this.http.get<ICompanyText>('api/company.json');
+    return this.http.get<ICompanyText>('/api/company.json');
   }
 
   public getContactsStrings(): Observable<IContactsTranslations> {
-    return this.http.get<IContactsTranslations>('api/contacts.json');
+    return this.http.get<IContactsTranslations>('/api/contacts.json');
   }
 
   constructor(private http: HttpClient) { }

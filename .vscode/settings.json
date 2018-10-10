@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/806409ec-8fbb-4607-998f-eb6e2c4ea976/resourceGroups/lemis-resources/providers/Microsoft.Web/sites/lemis",
+  "appService.deploySubpath": "dist\\LemisWebApp"
+}

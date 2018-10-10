@@ -3,19 +3,19 @@
     {
       "title": "Principais Obras da Lemis em 2015",
       "date": "12/01/2016",
-      "cover": "assets/images/news/obras2015_metro.jpg",
+      "cover": "/assets/images/news/obras2015_metro.jpg",
       "url": "principais-obras-da-lemis-em-2015"
     },
     {
       "title": "Mobiliário Lemis no Museu da Vista Alegre",
       "date": "12/01/2016",
-      "cover": "assets/images/news/vistaalegre_metro.jpg",
+      "cover": "/assets/images/news/vistaalegre_metro.jpg",
       "url": "mobiliario-lemis-no-museu-da-vista-alegre"
     },
     {
       "title": "Nova Cadeira de Aluno Delta",
       "date": "12/01/2016",
-      "cover": "assets/images/news/delta_metro.jpg",
+      "cover": "/assets/images/news/delta_metro.jpg",
       "url": "nova-cadeira-de-aluno-delta"
     }
   ]

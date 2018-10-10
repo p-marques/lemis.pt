@@ -1,7 +1,6 @@
 <div fxLayout="column" class="home-container">
   <div class="welcome-video-container">
-    <video autoplay muted loop id="welcome-video" width="1920" height="1080">
-      <source src="/assets/videos/welcome_video_high_quality.mp4" type="video/mp4">
+    <video autoplay muted loop id="welcome-video" width="1920" height="1080" [src]="videoUrl" poster="/assets/images/welcome_poster.png">
     </video>
     <img src="/assets/images/Lemis_Iberica_Logo_White.svg" alt="Lemis Ibérica">
   </div>

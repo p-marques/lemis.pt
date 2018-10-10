@@ -8,8 +8,8 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ProductsService {
-  private _productsApiUrl = 'api/products.json';
-  private _productTagsApiUrl = 'api/productTags.json';
+  private _productsApiUrl = '/api/products.json';
+  private _productTagsApiUrl = '/api/productTags.json';
   private _products: IProduct[] = [];
 
   public get products(): IProduct[] {

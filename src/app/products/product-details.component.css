@@ -28,7 +28,6 @@
 .product-detail-container .right-container h1 {
   font-size: 100px;
   margin: 0;
-  padding: 10px 50px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -38,6 +37,11 @@
   font-weight: 300;
   margin-top: 5%;
   padding: 0 50px;
+}
+
+.product-detail-container .right-container .description-container p {
+  max-width: 100%;
+  overflow-wrap: normal;
 }
 
 .product-detail-container .right-container .images-container {

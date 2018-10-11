@@ -3,12 +3,14 @@
     <img [src]="product?.cover" [alt]="product?.name[currentLanguage]">
   </div>
   <div fxLayout="column" fxFlex="50" fxLayoutAlign="center center" class="right-container">
-    <h1>{{product?.name[currentLanguage]}}</h1>
-    <div fxLayout="column" fxLayoutAlign="start start" class="description-container">
-      <p>{{product?.description[currentLanguage]}}</p>
-    </div>
-    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center" class="images-container">
-      <img *ngFor="let image of product?.fotos" [src]="image">
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <h1>{{product?.name[currentLanguage]}}</h1>
+      <div fxLayout="column" fxLayoutAlign="start start" class="description-container">
+        <p>{{product?.description[currentLanguage]}}</p>
+      </div>
+      <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center" class="images-container">
+        <img *ngFor="let image of product?.fotos" [src]="image">
+      </div>
     </div>
   </div>
 </div>

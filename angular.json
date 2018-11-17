@@ -22,7 +22,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/api",
-              "src/web.config"
+              "src/web.config",
+              "src/sitemap.xml"
             ],
             "styles": [
               "src/lemis-theme.scss",

@@ -11,7 +11,7 @@
 }
 
 .products-list-container .filters-container a.active {
-  background-color: #ff6e40;
+  background-color: #323232;
   color: #fff;
   box-shadow: 2px 2px 2px #ccc;
 }

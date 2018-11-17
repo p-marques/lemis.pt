@@ -3,7 +3,7 @@
 @include mat-core();
 
 // https://material.io/design/color/
-$lemis-app-primary: mat-palette($mat-indigo);
+$lemis-app-primary: mat-palette($mat-gray);
 $lemis-app-accent: mat-palette($mat-deep-orange, A200, A100, A400);
 $lemis-app-warn: mat-palette($mat-red);
 

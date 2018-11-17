@@ -42,6 +42,7 @@ export class NavComponent implements OnInit {
     this.translateService.appLanguage = language;
   }
 
-  constructor(private breakpointObserver: BreakpointObserver, private router: Router, private translateService: TranslateService) {}
+  constructor(private breakpointObserver: BreakpointObserver, private router: Router, private translateService: TranslateService) {
+  }
 
   }

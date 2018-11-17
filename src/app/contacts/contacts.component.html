@@ -46,7 +46,7 @@
 
         <div fxLayout="row" fxLayoutAlign="end center" class="submit-container" style="min-height: 70px">
           <mat-spinner *ngIf="working" color="accent" diameter="50"></mat-spinner>
-          <button *ngIf="!working" mat-raised-button color="accent" type="submit" [disabled]="!contactFormGroup.valid || working">{{contactsStrings?.submit[currentLanguage]}}</button>
+          <button *ngIf="!working" mat-raised-button color="primary" type="submit" [disabled]="!contactFormGroup.valid || working" style="color: #fff">{{contactsStrings?.submit[currentLanguage]}}</button>
         </div>
 
       </form>

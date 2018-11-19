@@ -4,6 +4,7 @@ import { IProduct } from '../models/products';
 import { TranslateService } from '../shared/translate.service';
 import { LanguageCode } from '../models/enums';
 import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'lemis-products-list',
@@ -19,9 +20,12 @@ export class ProductsListComponent implements OnInit {
     return this.translateService.appLanguage;
   }
 
-  constructor(private productsService: ProductsService, private translateService: TranslateService, private router: Router) { }
+  constructor(private productsService: ProductsService, private translateService: TranslateService,
+    private router: Router, private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle('Lemis Ibérica - Produtos');
+
     this.productsService.getProducts().subscribe(
       data => {
         this.productsService.products = data.products;

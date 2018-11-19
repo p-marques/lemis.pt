@@ -25,3 +25,7 @@ button.mat-raised-button.mat-accent { color: #fff; }
 .mat-snack-bar-container { max-width: 100% !important; min-height: 60px; }
 
 span.spacer { flex: 1 1 auto }
+
+mat-nav-list a.center-text .mat-list-item-content {
+  justify-content: center;
+}

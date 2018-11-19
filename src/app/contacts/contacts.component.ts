@@ -7,6 +7,7 @@ import { TranslateService } from '../shared/translate.service';
 import { IContactsTranslations } from '../models/contacts';
 import { SnackService } from '../shared/snack.service';
 import { ActivatedRoute } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'lemis-contacts',
@@ -40,9 +41,11 @@ export class ContactsComponent implements OnInit {
   }
 
   constructor(private emailService: EmailService, private translateService: TranslateService,
-    private snackService: SnackService, private route: ActivatedRoute) { }
+    private snackService: SnackService, private route: ActivatedRoute, private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle('Lemis Ibérica - Contactos');
+
     const errorSnackStrings = [
       'Algo correu mal e parte da página não carregou. Por favor tente novamente.',
       'Une erreur s\'est produite et une partie de la page n\'a pas été chargée. Veuillez réessayer.',

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '../shared/translate.service';
 import { ICompanyText } from '../models/company';
 import { LanguageCode } from '../models/enums';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'lemis-company',
@@ -46,9 +47,11 @@ export class CompanyComponent implements OnInit {
     return v;
   }
 
-  constructor(private translateService: TranslateService) { }
+  constructor(private translateService: TranslateService, private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle('Lemis Ibérica - Empresa');
+
     this.translateService.getCompanyString().subscribe(
       data => this.companyText = data
     );

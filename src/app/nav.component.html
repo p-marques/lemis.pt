@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" class="lemis-header" [ngClass]="{'home-header' : isHome}">
+<mat-toolbar color="primary" class="lemis-header" *ngIf="!isHome">
   <mat-toolbar-row class="lang-bar" *ngIf="!(isHandset$ | async)">
     <span class="spacer"></span>
     <button mat-button type="button" class="lang-btn" [ngClass]="{'lang-btn-active' : currentLanguage == 0}" (click)="changeLanguage(0)">
@@ -56,7 +56,7 @@
 
     <router-outlet></router-outlet>
 
-    <lemis-footer></lemis-footer>
+    <lemis-footer *ngIf="!isHome"></lemis-footer>
 
   </mat-sidenav-content>
 </mat-sidenav-container>

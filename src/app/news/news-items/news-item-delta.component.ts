@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'lemis-news-item-delta',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsItemDeltaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle('Lemis Ibérica - Notícias - Nova Cadeira de Aluno Delta');
   }
 
 }

@@ -3,6 +3,7 @@ import { INewsItem } from '../models/news';
 import { NewsService } from './news.service';
 import { LanguageCode } from '../models/enums';
 import { TranslateService } from '../shared/translate.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'lemis-news-list',
@@ -16,9 +17,11 @@ export class NewsListComponent implements OnInit {
     return this.translateService.appLanguage;
   }
 
-  constructor(private translateService: TranslateService, private newsService: NewsService) { }
+  constructor(private translateService: TranslateService, private newsService: NewsService, private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle('Lemis Ibérica - Notícias');
+
     this.newsService.getNewsItems().subscribe(
       data => this.newsItems = data.newsItems
     );
